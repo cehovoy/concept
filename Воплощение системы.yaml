@@ -1,0 +1,93 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: system realization
+  conceptId: https://example.org/concept/voploshchenie-sistemy
+  conceptLabel: Воплощение системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить разницу между воплощением системы и её описанием
+  - Описать состояния воплощения системы в жизненном цикле
+  - Привести примеры воплощения системы в физическом мире
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение правильно идентифицировать воплощение системы в реальных
+    примерах, отличать от моделей и описывать его свойства и состояния.
+  personalizationHint: для инженеров и системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как воплощение системы связано с физической реальностью и
+    отличается от её описания.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Класс, представляющий собой конкретное, уникальное физическое воплощение
+    системы в реальном мире, такое как материальный объект с границей в пространстве-времени,
+    проходящий состояния от 'в сырье' до 'эксплуатируется', и используемый для адекватного
+    системного мышления, привязанного к физической реальности.
+  examplesRu:
+    negative: Считать документацию или базу данных о ракетном двигателе самим воплощением
+      системы, вместо того чтобы видеть их как описание, а не физический объект.
+    positive: Боинг 737 как воплощение системы проходит состояния от 'в сырье' до
+      'эксплуатируется', где самолёт в небе является реальным физическим объектом.
+  formalDefinition: ''
+  informalDefinition: Воплощение системы - это реальное, материальное существование
+    системы в физическом мире, привязанное к пространству-времени, с границей и окружением.
+    Оно проходит различные состояния от сырья до эксплуатации и отличается от абстрактных
+    описаний или моделей.
+  keyProperties:
+  - datatype: boolean
+    name: Материальность
+    unit: ''
+  - datatype: string
+    name: Состояния альфа
+    unit: ''
+  - datatype: string
+    name: Граница в пространстве-времени
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с описанием системы, документацией или информационной моделью,
+    которые являются результатами мышления или документирования, а не самим физическим
+    воплощением; также не путать с поведением системы или процессами, такими как 'поедание
+    хлеба'.
+  oppositeRu: ''
+  purposeRu: Воплощение системы обеспечивает адекватность системного мышления, позволяя
+    привязывать рассуждения к физическому миру, надежно менять реальность в соответствии
+    с замыслами и различать реальные объекты от абстрактных идей или описаний.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistema
+  - relation: PART_OF
+    targetIri: https://example.org/concept/zhiznennyj-cikl-sistemy
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/opisanie-sistemy
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/boing-737
+  transformationPatterns:
+  - в сырье → полусобрано
+  - собрано → испытано
+  - эксплуатируется → выведено из эксплуатации
+  usageContextRu:
+  - В проектах по разработке систем, где система проходит стадии от сырья до эксплуатации
+  - В системном мышлении для выделения объектов в физическом мире с границей и окружением
+  - В жизненном цикле системы, включая изготовление, сборку, наладку и вывод из эксплуатации

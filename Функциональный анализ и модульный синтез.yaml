@@ -1,0 +1,97 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/funktsionalnyi-analiz-i-modulnyi-sintez
+  conceptLabel: Функциональный анализ и модульный синтез
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Разбить систему на функциональные части и объяснить их взаимодействие
+  - Подобрать конструктивы для реализации функциональности
+  - Собрать систему из модулей с учётом характеристик подсистем
+  marzanoLevel: Analysis
+  masteryCriteria: Способность привести примеры несовпадающих функциональных и конструктивных
+    разбиений и обосновать выбор аффордансов для синтеза.
+  personalizationHint: для инженеров-разработчиков
+  prerequisiteConcepts: []
+  promptHintRu: Опиши процесс функционального анализа и модульного синтеза для разработки
+    концепции системы, приведя пример из инженерии.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Функциональный анализ должен быть подчинён целям синтеза
+  - Модульный синтез следует после понимания характеристик подсистем
+  definition_ru: Процесс, включающий функциональный анализ как разъединение системы
+    на части по функциям и ролям для понимания взаимодействия подсистем, с последующим
+    модульным синтезом как сборкой из аффордансов-конструктивов для воплощения требуемой
+    функциональности в целой системе.
+  examplesRu:
+    negative: Проведение функционального анализа без последующего модульного синтеза,
+      что приводит к отрыву декомпозиции от сборки и не позволяет реализовать систему.
+    positive: В разработке системы ножниц функциональный анализ разбивает на ножевой
+      блок и ручку, а модульный синтез собирает из половинок и винтика для реализации
+      функции резки.
+  formalDefinition: ''
+  informalDefinition: Функциональный анализ - это декомпозиция системы на функциональные
+    части для понимания её работы, а модульный синтез - сборка из конструктивов для
+    реализации этих функций.
+  keyProperties:
+  - datatype: ''
+    name: Функциональная декомпозиция
+    unit: ''
+  - datatype: ''
+    name: Подбор аффордансов
+    unit: ''
+  - datatype: ''
+    name: Сборка в иерархии
+    unit: ''
+  metaphorRu: Функциональный анализ как разборка механизма на части для понимания
+    работы, а модульный синтез как сборка из подходящих деталей для восстановления
+    функции.
+  notThisRu: Не путать с анализом без подчинения синтезу, где декомпозиция происходит
+    в отрыве от целей сборки; также отличается от других видов разбиений, таких как
+    пространственное или стоимостное.
+  oppositeRu: ''
+  purposeRu: Функциональный анализ и модульный синтез предназначены для разработки
+    концепции системы, позволяя сначала разобрать функциональность на подсистемы,
+    а затем подобрать и собрать конструктивы для реализации нужных характеристик и
+    режимов работы.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistemnyi-analiz
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/affordans
+  - relation: PART_OF
+    targetIri: https://example.org/concept/razrabotka-kontseptsii-sistemy
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/nozhnitsy
+  transformationPatterns:
+  - Функциональный объект → Декомпозиция на подсистемы
+  - Конструктивы → Сборка в надконструктив
+  usageContextRu:
+  - Разработка концепции системы в инженерии
+  - Моделирование функциональных и конструктивных разбиений систем
+  - Работа инженера-разработчика над расчётом режимов функционирования системы

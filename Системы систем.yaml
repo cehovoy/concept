@@ -1,0 +1,98 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: System of Systems / SoS
+  conceptId: https://example.org/concept/sistemy-sistem
+  conceptLabel: Системы систем
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - Maier302
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить критерии системы систем по Maier
+  - Отличить систему систем от просто системы
+  - Привести примеры систем систем и объяснить их эмерджентность
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение описать социальные аспекты создания и владения подсистемами,
+    а также эмерджентный эффект в примерах.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, почему система систем отличается от обычной системы, с примерами
+    из фрагментов.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Ответственный за SoS не имеет полномочий предписывать развитие подсистем
+  - Подсистемы могут работать независимо от целевой системы
+  definition_ru: Класс, представляющий собой систему, которая состоит из других систем
+    с независимыми системами создания подсистем, возможностью автономной работы подсистем,
+    эмерджентностью от объединения и эволюционным развитием. Это не просто вложенность
+    систем, а выделение по социальным характеристикам систем создания, особенностям
+    времени создания и независимости владельцев подсистем.
+  examplesRu:
+    negative: Компьютер как просто система, где подсистемы (процессор, память) не
+      имеют независимых владельцев и не работают автономно вне компьютера.
+    positive: Город как система систем, где транспортная сеть, инфраструктура и жители
+      функционируют автономно, но вместе дают эмерджентный эффект городской жизни.
+  formalDefinition: ''
+  informalDefinition: Системы систем - это особый тип системы, состоящей из независимых
+    подсистем, которые могут функционировать автономно, но при объединении дают эмерджентный
+    эффект. Отличается от обычных систем социальными аспектами создания и владения
+    подсистемами.
+  keyProperties:
+  - datatype: ''
+    name: Независимые системы создания подсистем
+    unit: ''
+  - datatype: ''
+    name: Автономная работа подсистем
+    unit: ''
+  - datatype: ''
+    name: Эмерджентность/системный эффект
+    unit: ''
+  - datatype: ''
+    name: Эволюционное развитие
+    unit: ''
+  metaphorRu: Система систем подобна группе агентов-собственников с портфелями, которые
+    должны договориться, чтобы автономные системы образовали целое.
+  notThisRu: Не следует путать с просто системой, где подсистемы не имеют независимых
+    систем создания и не могут работать автономно; разница не в структуре, а в социальных
+    аспектах.
+  oppositeRu: ''
+  purposeRu: Понятие системы систем подчеркивает необходимость согласования между
+    независимыми владельцами и создателями подсистем для достижения эмерджентного
+    системного эффекта, который невозможно получить от отдельных систем.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistema
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnye-urovni
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/emerdzhentnost
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/gorod
+  transformationPatterns: []
+  usageContextRu:
+  - Город
+  - Транспортная сеть
+  - Интернет
+  - Компания

@@ -1,0 +1,98 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: проектная роль/деятельностная роль/функциональная роль/организационная
+    роль/трудовая роль/командная роль/культурная роль/стейкхолдер
+  conceptId: https://example.org/concept/rol
+  conceptLabel: Роль
+  conceptLevel: Meta
+  conceptType: Role
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системное мышление
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://vk.com/@buffdance-rasskaz-o-sistemnyh-urovnyah-v-tance
+  - https://jenabl.wordpress.com/2017/05/17/inclusivity-and-dance-terminology/
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Различать роль и ее исполнителя в проекте
+  - Оценивать изменения, производимые ролью в окружении
+  - Обозначать роль в коммуникации для ясности
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение предварять реплики обозначением роли, понимать ролевые интересы
+    и не путать роль с исполнителем.
+  personalizationHint: для системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как отличать роль от исполнителя в проектной деятельности.
+  recommendedResources:
+  - https://vk.com/@buffdance-rasskaz-o-sistemnyh-urovnyah-v-tance
+  - https://jenabl.wordpress.com/2017/05/17/inclusivity-and-dance-terminology/
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - роль всегда рассматривается в момент ее функционирования
+  - не путать с исполнителем роли или должностью
+  definition_ru: Роль, представляющая собой систему как функциональный объект, для
+    которого важно, какие изменения производит роль в окружении, то есть какую функцию/метод/практику
+    работы эта роль выполняет; роль всегда рассматривается в момент ее работы/функционирования,
+    оценивается по изменениям в окружающем мире, и не путать роль с исполнителем роли.
+  examplesRu:
+    negative: Если человек на работе считает, что он и есть инженер или менеджер,
+      путая себя с ролью, это признак того, что он сошел с ума.
+    positive: В проекте внешняя проектная роль 'регулятор' дает возможность выполнения
+      проекта, оплачивает или запрещает его.
+  formalDefinition: ''
+  informalDefinition: Роль - это функциональный объект, который агент играет, выполняя
+    определенные методы работы в проекте или деятельности, с акцентом на изменения,
+    производимые в окружении. Важно отличать роль от ее исполнителя, как персонажа
+    от актера.
+  keyProperties:
+  - datatype: ''
+    name: поведение
+    unit: ''
+  - datatype: ''
+    name: метод работы
+    unit: ''
+  - datatype: ''
+    name: изменения в окружении
+    unit: ''
+  metaphorRu: 'Роль подобна роли в театре: важны действия персонажа, а не личные черты
+    актера, исполняющего роль.'
+  notThisRu: 'Не путать роль и исполнителя роли: не надо путать потребности принца
+    Гамлета с потребностями Васи Пупкина, который сегодня играет роль принца Гамлета;
+    также не путать с должностью, которая относится ко времени организовывания.'
+  oppositeRu: ''
+  purposeRu: Роль позволяет различать агента и его функцию в проекте или организации,
+    оценивать поведение роли по методам работы и изменениям в окружении, а также понимать
+    ролевую игру в коллективных проектах для достижения успеха.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/agent
+  - relation: IS_A
+    targetIri: https://example.org/concept/functional-object
+  - relation: PART_OF
+    targetIri: https://example.org/concept/project
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/stakeholder
+  transformationPatterns: []
+  usageContextRu:
+  - проекты создания и развития систем
+  - организационные структуры
+  - деятельность и разделение труда
+  - командная работа и ролевые игры

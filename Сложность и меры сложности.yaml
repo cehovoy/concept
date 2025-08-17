@@ -1,0 +1,105 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/slozhnost-i-mery-slozhnosti
+  conceptLabel: Сложность и меры сложности
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: Системные исследования
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - http://web.mit.edu/esd.83/www/notebook/Complexity.PDF
+  - https://www.pnas.org/doi/full/10.1073/pnas.1807890115
+  - https://scholar.google.com/citations?hl=en&user=nEEFLp0AAAAJ&view_op=list_works&sortby=pubdate
+  - https://ru.wikipedia.org/wiki/Равенство_классов_P_и_NP
+  - https://en.wikipedia.org/wiki/No_free_lunch_theorem
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить три основных вопроса, на которые отвечают меры сложности
+  - Перечислить примеры мер сложности для описания, создания и организации систем
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность различать виды сложности и применять их к примерам
+    систем, таких как алгоритмы или биологические структуры.
+  personalizationHint: Для инженеров и системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как меры сложности применяются в системном подходе к оценке
+    трудности создания алгоритмов.
+  recommendedResources:
+  - http://web.mit.edu/esd.83/www/notebook/Complexity.PDF
+  - https://www.pnas.org/doi/full/10.1073/pnas.1807890115
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Оценки сложности меняются при переходе к другой физике вычислений, например, квантовым
+    компьютерам
+  - Для многих классов задач непонятно, можно ли найти быстрый алгоритм
+  definition_ru: Класс, представляющий собой понятие, интенсивно разрабатываемое в
+    системных исследованиях и других дисциплинах, без окончательного согласия по определению,
+    с различными видами сложности для разных проектов и ролей, отвечающее на вопросы
+    о трудности описания системы (в битах, с мерами как информация, энтропия, алгоритмическая
+    сложность), трудности создания системы (во времени, энергии, долларах, с мерами
+    как вычислительная сложность, временная и пространственная вычислительная сложность)
+    и степени организованности (effective complexity или количество информации для
+    обмена между частями).
+  examplesRu:
+    negative: Путать сложность с случайностью, хотя результаты детерминированы, но
+      описываются вероятностно.
+    positive: В биологии сложность измеряется числом шагов для создания объекта, что
+      помогает отличать биологические процессы от небиологических.
+  formalDefinition: ''
+  informalDefinition: Сложность - это понятие, разрабатываемое в системных исследованиях
+    и других дисциплинах, без окончательного согласия по определению, отвечающее на
+    вопросы о трудности описания, создания системы и степени ее организованности.
+    Меры сложности включают информационные, вычислительные и организационные аспекты.
+  keyProperties:
+  - datatype: Биты
+    name: Трудность описания
+    unit: Биты
+  - datatype: Время, энергия, доллары
+    name: Трудность создания
+    unit: ''
+  - datatype: Effective complexity или mutual information
+    name: Степень организованности
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с бытовыми интуитивными значениями; близкие понятия как Long-Range
+    Order, Self-Organization, Complex Adaptive Systems, Edge of Chaos не являются
+    понятиями сложности, хотя и связаны.
+  oppositeRu: ''
+  purposeRu: Понятие сложности и ее мер используется для оценки трудности описания,
+    создания и организации систем в различных научных и инженерных дисциплинах, помогая
+    понимать, почему некоторые системы хлопотны в работе и не всегда предсказуемы,
+    особенно в крупных системах как общество или человечество, где эволюция порождает
+    все более сложные структуры.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/entropiya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnyj-podhod
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/vychislitelnaya-slozhnost
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/biologicheskaya-slozhnost
+  transformationPatterns: []
+  usageContextRu:
+  - Системные исследования и развитие системного подхода
+  - Вычислительная сложность и алгоритмы, включая P и NP, no free lunch theorem
+  - Биологическая сложность, включая pathway complexity и hierarchical organization
+  - Организационная структура в корпоративных, химических или клеточных системах

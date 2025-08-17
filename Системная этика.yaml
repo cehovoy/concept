@@ -1,0 +1,108 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/sistemnaya-etika
+  conceptLabel: Системная этика
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системное мышление
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://ailev.livejournal.com/1622346.html
+  - https://ailev.livejournal.com/1644996.html
+  - https://plato.stanford.edu/entries/utilitarianism-history/
+  - https://plato.stanford.edu/entries/ethics-deontological/
+  - https://plato.stanford.edu/entries/consequentialism/
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Анализировать конфликты интересов между разными системными уровнями
+  - Применять системную этику для оценки успешности систем
+  - Обсуждать развивающийся характер этики как нормативной науки
+  marzanoLevel: Analysis
+  masteryCriteria: Способность приводить аргументы в пользу этических решений с учетом
+    интересов разных уровней и понимать отсутствие абсолютных ответов.
+  personalizationHint: для системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как системная этика помогает минимизировать конфликты между
+    уровнями в инженерии систем.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Неустранимые неустроенности в системах
+  - Рост сложности систем в ходе эволюции
+  - Отсутствие абсолютных решений
+  definition_ru: Процесс, представляющий собой метод/практику/культуру минимизации
+    конфликтов между интеллектуальными агентами по поводу их действий, затрагивающих
+    интересы других агентов, с распространением на конфликты агентов более высоких
+    системных уровней, таких как организации, сообщества, общества и человечества/агентечества
+    в целом, рассматриваемый как нормативная наука, развивающаяся дисциплина, тесно
+    пересекающаяся с системным мышлением через конфликты между уровнями и неустроенности
+    из-за них.
+  examplesRu:
+    negative: Игнорирование интересов команды при решении личных нужд человека без
+      учета межуровневых конфликтов, что не соответствует системной этике.
+    positive: Рабочий создал пушку, что хорошо для него и предприятия, но вызывает
+      конфликт с сообществом пацифистов и любителями государства, и системная этика
+      учитывает все эти уровни для минимизации конфликтов.
+  formalDefinition: ''
+  informalDefinition: Системная этика - это метод минимизации конфликтов между интеллектуальными
+    агентами и агентами более высоких системных уровней, учитывающий интересы разных
+    системных уровней в контексте системного мышления.
+  keyProperties:
+  - datatype: ''
+    name: Минимизация конфликтов
+    unit: ''
+  - datatype: ''
+    name: Учет интересов разных системных уровней
+    unit: ''
+  - datatype: ''
+    name: Нормативная наука с развивающейся теорией
+    unit: ''
+  - datatype: ''
+    name: Пересечение с системным мышлением
+    unit: ''
+  metaphorRu: 'Системная этика подобна раку печени для организма: то, что хорошо для
+    клеток (рост), плохо для целого, подчеркивая конфликты уровней.'
+  notThisRu: Системная этика не является этикой, игнорирующей интересы разных системных
+    уровней, и не предоставляет абсолютных решений или верных ответов из-за неустранимых
+    неустроенностей в системах.
+  oppositeRu: ''
+  purposeRu: Системная этика предназначена для оценки изменений к лучшему, минимизации
+    конфликтов между системными уровнями, обеспечения успешности систем в условиях
+    межуровневых конфликтов и является фундаментальным методом мышления в интеллект-стеке,
+    способствующим культурной/техно-эволюции и процессу деятельного познания.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/etika
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/intellekt-stek
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/konflikty-mezhdu-urovnyami
+  transformationPatterns: []
+  usageContextRu:
+  - Рассуждения о успешности систем в условиях межуровневых конфликтов
+  - Инженерия систем разных эволюционных уровней
+  - Оценка этических вопросов при изменениях мира к лучшему
+  - Рассмотрение конфликтов интересов между человеком, командой, сообществом, обществом
+    и человечеством

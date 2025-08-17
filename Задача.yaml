@@ -1,0 +1,90 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: Task / Постановка задачи / Решение задачи
+  conceptId: https://example.org/concept/zadacha
+  conceptLabel: Задача
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Сформулировать задачу на основе ситуации из жизни
+  - Перевести issue в task с четкой практикой
+  - Задействовать мастерство в проекте через постановку задач
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Умение выделять объекты, присваивать типы и решать сформулированные
+    задачи в реальных проектах.
+  personalizationHint: для методистов и лидеров проектов
+  prerequisiteConcepts: []
+  promptHintRu: Сформулируй goldilocks вопрос как задачу для проекта.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Класс, представляющий собой сформулированную проблему или работу,
+    требующую выделения объектов из окружающего мира, присвоения им типов и последующего
+    решения, часто переходящую из состояния issue в состояние task с четкой практикой
+    выполнения.
+  examplesRu:
+    negative: Считать неопределенную озабоченность людей в проекте задачей без формализации
+      и моделирования.
+    positive: Поставить задачу по закраске царапины на корпусе прибора, определив
+      практику и исполнителя.
+  formalDefinition: ''
+  informalDefinition: Задача - это сформулированная проблема или работа, которую нужно
+    выполнить, часто в контексте проекта или обучения, с возможностью перехода из
+    состояния неопределенности в четкую миссию.
+  keyProperties:
+  - datatype: string
+    name: Постановка
+    unit: ''
+  - datatype: process
+    name: Решение
+    unit: ''
+  - datatype: string
+    name: Состояние
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с неопределенной issue, где непонятно, что делать, в отличие
+    от задачи, где практика выполнения ясна; также не является просто функцией без
+    формализации.
+  oppositeRu: ''
+  purposeRu: Задача предназначена для организации деятельности в проектах, развития
+    умений постановки и решения проблем, задействования мастерства в коллективной
+    деятельности и изменения физического мира через формализованные действия.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/rabota
+  - relation: PART_OF
+    targetIri: https://example.org/concept/proekt
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/issue
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/masterstvo
+  transformationPatterns:
+  - issue → task
+  - постановка → решение
+  usageContextRu:
+  - В рабочих проектах для формализации функций и работ
+  - В обучении для формулировки вопросов и развития мастерства
+  - В методологии для задействования лидерства и практик

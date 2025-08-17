@@ -1,0 +1,87 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/ozabochennost
+  conceptLabel: Озабоченность
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить роль озабоченности в собранности и осознанности.
+  - Применить озабоченность для проверки внимания и гигиены в работе.
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность отслеживать и корректировать внимание на основе озабоченностей,
+    демонстрируя собранность в задачах.
+  personalizationHint: для практиков саморазвития
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как озабоченность гигиеной влияет на собранность внимания в
+    рабочем проекте.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Свойство, представляющее интересы или concerns в контексте собранности
+    ума и осознанности, включая внимательность к вниманию, осознание характеристик
+    первичного внимания, агентность, деятельностность и прагматичность.
+  examplesRu:
+    negative: Озабоченность прокрастинацией без перехода к действию приводит к разобранности,
+      а не к продуктивной собранности.
+    positive: Озабоченность гигиеной помогает поддерживать собранность, проверяя достаточность
+      сна, еды и физических нагрузок для работы.
+  formalDefinition: ''
+  informalDefinition: Озабоченность представляет собой интерес или заботу, связанную
+    с собранностью ума и осознанностью, включая внимательность к вниманию, агентность
+    и другие аспекты.
+  keyProperties:
+  - datatype: ''
+    name: Внимательность к вниманию
+    unit: ''
+  - datatype: ''
+    name: Агентность
+    unit: ''
+  - datatype: ''
+    name: Прагматичность
+    unit: ''
+  metaphorRu: 'Озабоченность как присмотр за детьми: наблюдение и вмешательство только
+    при необходимости для поддержания порядка.'
+  notThisRu: Не путать с пассивным свидетельствованием или непрерывным управлением
+    вниманием, а также с неосознанным застреванием в роли.
+  oppositeRu: ''
+  purposeRu: Озабоченность служит для фокусировки на ключевых аспектах собранности,
+    таких как отслеживание внимания и достижение целей, помогая в управлении вниманием
+    и адаптации к изменениям.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sobrannost
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/osoznannost
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/vnimanie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/governance
+  transformationPatterns: []
+  usageContextRu:
+  - В контексте собранности и осознанности для присмотра за вниманием.
+  - В проверке гигиены и мотивации для работы.
+  - В интересах к внимательности, агентности и прагматичности.

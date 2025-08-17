@@ -1,0 +1,77 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/otnoshenie-sozdaniya
+  conceptLabel: Отношение создания
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить отличие отношения создания от отношения композиции.
+  - Построить граф создателей для простой системы.
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение правильно классифицировать отношения в моделях систем и
+    избегать путаницы с частью-целым.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши отношение создания в контексте графов создателей и отличия от
+    композиции.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Класс, представляющий отношение создания, в котором создатель A создаёт
+    объект Б, описывая и/или меняя другую систему, и это отношение проходит через
+    границы времён или realms, отличаясь от отношений часть-целое или композиции.
+  examplesRu:
+    negative: Кастрюля в составе борща или борщ в составе кастрюли, хотя кастрюля
+      используется для создания борща.
+    positive: 'Я жарю шницель: шницель не часть меня, я не часть шницеля, это отношение
+      создания.'
+  formalDefinition: ''
+  informalDefinition: Отношение, в котором одна система создаёт или изменяет состояние
+    другой системы, часто через цепочки в графе создателей.
+  keyProperties: []
+  metaphorRu: Как повар варит борщ в кастрюле, где кастрюля - создатель, но не часть
+    борща.
+  notThisRu: Не путать с отношениями часть-целое или композицией, так как создатели
+    не являются частями систем окружения и рассматриваются в разных временах.
+  oppositeRu: ''
+  purposeRu: Отношение создания используется для моделирования графов создателей,
+    где узлы - системы, а рёбра - отношения создания, позволяя рассматривать цепочки
+    создания систем и оценивать успешность целевой системы.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/otnoshenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/graf-sozdatelej
+  - relation: PART_OF
+    targetIri: https://example.org/concept/ontologicheskie-otnosheniya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/otnoshenie-chast-tceloe
+  transformationPatterns:
+  - X::система → Y::система
+  usageContextRu:
+  - Системное мышление
+  - Онтология промышленных проектов
+  - Моделирование цепочек создания и развития систем

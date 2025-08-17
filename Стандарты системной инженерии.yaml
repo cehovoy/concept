@@ -1,0 +1,116 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: System life cycle processes / Процессы жизненного цикла системной инженерии
+  conceptId: https://example.org/concept/standarty-sistemnoj-inzhenerii
+  conceptLabel: Стандарты системной инженерии
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - ISO/IEC/IEEE 15288:2023 Systems and software engineering — System life cycle processes
+  - ISO 33001:2015
+  - ISO/IEC/IEEE 42010:2022 Systems and software engineering — Architecture description
+  - ISO 12207
+  - ISO/IEC/IEEE 24748-1
+  - ISO/IEC/IEEE 24748-2
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить группы процессов в стандартах системной инженерии
+  - Описать процедуру оценки соответствия стандартам
+  - Применить рекурсивное использование стандартов в проекте
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность обосновать соответствие стандарту в контексте системной
+    инженерии и выявить пропуски в практиках.
+  personalizationHint: для инженеров, ориентированных на стандартизацию
+  prerequisiteConcepts:
+  - https://example.org/concept/sistemnaya-inzheneriya
+  - https://example.org/concept/protsessy-zhiznennogo-tsikla
+  promptHintRu: Опиши, как стандарты системной инженерии, такие как ISO 15288, способствуют
+    обоснованию соответствия в проектах.
+  recommendedResources: []
+  soloLevel: Multistructural
+Semantics:
+  constraints:
+  - Должны быть адаптированы для каждого случая
+  - Не предполагают обязательное следование, но предоставляют процедуру оценки
+  - Ограничены созданием систем без сильного акцента на развитие
+  definition_ru: Класс, представляющий собой набор общих описаний методов создания
+    и развития систем, созданных в ходе системноинженерных проектов, включая процессы
+    жизненного цикла, разделенные на группы, с возможностью рекурсивного использования
+    и оценки соответствия, такие как ISO 15288, ISO 33001 и ISO 42010, которые устанавливают
+    нормы для инженерных практик, вовлекающих все проектные роли для удовлетворения
+    клиента.
+  examplesRu:
+    negative: Применение стандартов только для программных систем без учета безмасштабности
+      и рекурсивного использования, что ограничивает их общеприменимость к разным
+      видам систем.
+    positive: В проекте разработки системы использование ISO 15288 для разделения
+      процессов на группы и оценки соответствия позволяет обосновать стандартизацию
+      без дополнительных испытаний.
+  formalDefinition: ''
+  informalDefinition: Стандарты системной инженерии определяют набор методов и процессов
+    для создания и развития систем, включая оценку соответствия, группы технических
+    и управленческих процессов, и обеспечивают обоснование соответствия без необходимости
+    дополнительных испытаний.
+  keyProperties:
+  - datatype: string
+    name: Группы процессов
+    unit: ''
+  - datatype: boolean
+    name: Рекурсивное использование
+    unit: ''
+  - datatype: string
+    name: Оценка соответствия
+    unit: ''
+  - datatype: string
+    name: Вовлечение проектных ролей
+    unit: ''
+  metaphorRu: Стандарты системной инженерии подобны карте, которая описывает возможные
+    пути создания системы, но не диктует обязательный маршрут, позволяя адаптацию
+    под конкретный ландшафт проекта.
+  notThisRu: Не следует путать с простыми инженерными практиками без системного подхода,
+    где не выполняется полный набор методов жизненного цикла, или с моделями зрелости,
+    которые устарели в пользу непрерывной эволюции.
+  oppositeRu: ''
+  purposeRu: Стандарты системной инженерии предназначены для стандартизации деятельности,
+    обеспечения обоснования соответствия без дополнительных испытаний, оценки процессов
+    разработки и гармонизации подходов к созданию систем различного масштаба, способствуя
+    переходу от редукционистского к системному подходу с множественностью описаний.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/iso-15288
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnaya-inzheneriya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/protsessy-zhiznennogo-tsikla
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/iso-42010
+  transformationPatterns:
+  - Однократная разработка → Непрерывная эволюция
+  - Редукционистский подход → Системный подход с множественностью описаний
+  usageContextRu:
+  - Оценка процессов разработки в соответствии с ISO 15288 и ISO 12207
+  - Обоснование соответствия в системной инженерии для исключения необходимости испытаний
+  - Разложение инженерного процесса на методы для создания и развития систем на любом
+    уровне
+  - Управление моделью жизненного цикла и вовлечение всех проектных ролей
+  - Документирование систем и архитектурных описаний по ISO 42010

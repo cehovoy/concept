@@ -1,0 +1,105 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/kritika
+  conceptLabel: Критика
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://ailev.livejournal.com/1755878.html
+  - https://en.wikipedia.org/wiki/OpenAI
+  - https://arxiv.org/abs/2502.00873
+  - https://en.wikipedia.org/wiki/Generative_adversarial_network
+Pedagogy:
+  bloomLevel: Evaluate
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Application
+  - Integration
+  - Learning How to Learn
+  learningObjectives:
+  - Обучающийся сможет оценивать теории на логичность и адекватность
+  - Обучающийся сможет применять подход интересной критики в познании
+  - Обучающийся сможет отличать критику от творчества в интеллект-стеке
+  marzanoLevel: Analysis
+  masteryCriteria: Способность правильно отобрать интересную критику, провести логический
+    анализ идей и обосновать отбраковку или модификацию на основе критики.
+  personalizationHint: для рациональных мыслителей
+  prerequisiteConcepts:
+  - https://example.org/concept/logika
+  - https://example.org/concept/kriticheskij-racionalizm
+  promptHintRu: Опиши, как применять подход интересной критики к оценке новой теории
+    в контексте критического рационализма.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Отвечать только на интересную критику
+  - Критика должна быть логичной и заземленной в реальности
+  - Нет необходимости решать все проблемы, высвеченные критикой
+  definition_ru: Процесс, представляющий важнейшую часть критического рационализма
+    и познания, в ходе которого оцениваются теории, догадки или работы на предмет
+    логичности, адекватности и объяснительной силы, с целью отбраковки слабых идей
+    и улучшения лучших, при этом критика должна быть логичной и аналитичной, привязанной
+    к реальности через эксперимент.
+  examplesRu:
+    negative: Отвечать на всю критику без учета интересности, тратя ресурсы на нерелевантные
+      замечания, что приводит к неэффективности.
+    positive: В критическом рационализме теории подвергаются критике, и выживает та,
+      которая лучше объясняет мир, что приводит к прогрессу знаний.
+  formalDefinition: ''
+  informalDefinition: Критика - это процесс оценки идей, теорий или работ, помогающий
+    выявлять проблемы и улучшать объяснения. Она важна в познании и творчестве, но
+    отвечать стоит только на интересную критику, учитывая ограниченность ресурсов.
+  keyProperties:
+  - datatype: ''
+    name: Интересность
+    unit: ''
+  - datatype: ''
+    name: Логичность
+    unit: ''
+  - datatype: ''
+    name: Аналитичность
+    unit: ''
+  - datatype: ''
+    name: Привязка к реальности
+    unit: ''
+  metaphorRu: Критика как меч, рассекающий иллюзии, а не создающий новые миры.
+  notThisRu: Критика не является творческим мышлением, не сводится только к логике
+    как искусству рассуждений, и не требует отвечать на всю критику, а только на интересную;
+    не путать с само-критикой, на которую не стоит полагаться исключительно.
+  oppositeRu: https://example.org/concept/tvorchestvo
+  purposeRu: Критика помогает решать проблемы, высвечивает интересные проблемы, способствует
+    выживанию лучших теорий в критическом рационализме и улучшению объяснений в познании
+    и творчестве, учитывая затратность познания и ограниченность ресурсов агента.
+  relatedConcepts:
+  - relation: PART_OF
+    targetIri: https://example.org/concept/kriticheskij-racionalizm
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/poznavanie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/tvorchestvo
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/logika
+  transformationPatterns:
+  - Догадка → Критика → Модификация или Отбраковка
+  - Теория → Критика → Выживание лучшей теории
+  usageContextRu:
+  - В очной тренировке для демонстрации скорости мышления и внешней оценки
+  - В критическом рационализме для проверки теорий
+  - В творчестве и познании для оценки догадок на базе практик интеллект-стека
+  - В отношении к искусству для влияния на создателя, потребителя и эксперта

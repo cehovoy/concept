@@ -1,0 +1,77 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/gipoteza
+  conceptLabel: Гипотеза
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives: []
+  marzanoLevel: Analysis
+  masteryCriteria: ''
+  personalizationHint: ''
+  prerequisiteConcepts: []
+  promptHintRu: ''
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Класс, представляющий собой выдвигаемую идею или предположение, такое
+    как предпринимательская гипотеза (концепция использования), научная гипотеза,
+    инженерная гипотеза (концепция системы) или бизнес-гипотеза (бизнес-модель), которое
+    проверяется логически или экспериментально и относится к общим мыслительным умениям,
+    реализуемым как отдельными людьми, так и организациями или компьютерами.
+  examplesRu:
+    negative: Считать гипотезу требованием и выполнять ее без проверки, что приводит
+      к отсутствию корректировок и возможным неудачам.
+    positive: В инженерии выдвигается гипотеза о ширине корпуса системы в 10 сантиметров,
+      которая проверяется на практике и корректируется при необходимости.
+  formalDefinition: ''
+  informalDefinition: Гипотеза - это выдвигаемая идея или предположение, которое можно
+    проверить логически или экспериментально, и которое относится к общим мыслительным
+    умениям, называемым научным мышлением.
+  keyProperties: []
+  metaphorRu: ''
+  notThisRu: Гипотеза отличается от требований, поскольку требования предполагают
+    выполнение без критики, в то время как гипотезы проверяются и корректируются;
+    также гипотеза может быть неверной или верной только в определенной ситуации.
+  oppositeRu: ''
+  purposeRu: Гипотеза предназначена для выдвижения идей о возможных объяснениях или
+    успешных системах, их рационального оценивания и проверки, что позволяет выбирать
+    лучшие варианты и корректировать подходы в науке, инженерии, бизнесе и предпринимательстве.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/nauchnoe-myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/inzhenernaya-razrabotka
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/predprinimatelskaya-gipoteza
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/biznes-gipoteza
+  transformationPatterns: []
+  usageContextRu:
+  - Научные исследования
+  - Инженерная разработка систем
+  - Предпринимательство и бизнес-моделирование
+  - Организационный менеджмент

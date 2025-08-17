@@ -1,0 +1,97 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: concern / interest / driver / важная характеристика / интересная характеристика
+  conceptId: https://example.org/concept/predmet-interesa
+  conceptLabel: Предмет интереса
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://elementy.ru/nauchno-populyarnaya_biblioteka/434505/Konflikty_kak_osnova_slozhnosti
+  - https://www.pnas.org/doi/full/10.1073/pnas.1807890115
+  - ISO 42010:2022
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить отличие предмета интереса от предпочтений ролей
+  - Привести примеры предметов интереса в проекте
+  - Описать, как предмет интереса связан с методами описания и ролями
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение правильно идентифицировать предмет интереса в описании системы,
+    отличать его от значений и предпочтений, и применять в контексте ролей.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как предмет интереса отличается от предпочтений ролей в системном
+    проекте.
+  recommendedResources: []
+  soloLevel: Multistructural
+Semantics:
+  constraints:
+  - Не является значением характеристики, только самим свойством
+  - Отличается от предпочтений ролей
+  definition_ru: Свойство, представляющее собой важную характеристику системы или
+    проекта, к которой приковано постоянное внимание разных ролей в проекте, такое
+    как стоимость, производительность, ремонтопригодность, функции, сроки годности
+    или безопасность, отражаемое методом описания и отличающееся от предпочтений ролей
+    по направлению изменения этого свойства.
+  examplesRu:
+    negative: Считать предметом интереса 'цену повыше' вместо просто 'цены', склеивая
+      с предпочтением роли.
+    positive: Цена как предмет интереса обсуждается ролями продавца и покупателя с
+      использованием метода описания, такого как смета, для достижения договоренностей.
+  formalDefinition: ''
+  informalDefinition: Предмет интереса - это важная характеристика системы или проекта,
+    к которой приковано внимание разных ролей, но не само значение этой характеристики,
+    а само свойство.
+  keyProperties:
+  - datatype: ''
+    name: Отражается методом описания
+    unit: ''
+  - datatype: ''
+    name: Приковывает внимание ролей
+    unit: ''
+  - datatype: ''
+    name: Может быть разбито на области интереса
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с предпочтениями ролей (ролевыми хотелками, куда двигать предмет
+    интереса, например, 'цена повыше' вместо просто 'цена'); не является значением
+    характеристики, а только самим свойством.
+  oppositeRu: ''
+  purposeRu: Предмет интереса нужен для описания характеристик системы, чтобы они
+    могли быть обсуждены разными ролями, для понимания интересов ролей и для нахождения
+    договоренностей в моделях целеполагания.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/metod-opisaniya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/oblast-interesa
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/predpochtenie-roli
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/proektnaya-rol
+  transformationPatterns: []
+  usageContextRu:
+  - В проектах по созданию систем
+  - В системном мышлении для описания озабоченностей ролей
+  - В goal-oriented requirements engineering (GORE) для нахождения ролей и их противоположных
+    предпочтений
+  - В документировании архитектурных описаний по ISO 42010:2022

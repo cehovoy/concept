@@ -1,0 +1,81 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/adekvatnost
+  conceptLabel: Адекватность
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives: []
+  marzanoLevel: Comprehension
+  masteryCriteria: ''
+  personalizationHint: ''
+  prerequisiteConcepts: []
+  promptHintRu: ''
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Свойство, представляющее возможность проверить связь абстрактного
+    мышления и порождаемых им описаний ситуаций с реальным миром, обеспечивая соотнесение
+    мыслительных представлений с существующим независимо от нас материальным и физическим
+    миром, чтобы избежать обмана мышления и неадекватных представлений, делая мышление
+    практическим и применимым для действий.
+  examplesRu:
+    negative: Мышление, предлагающее представления без способов соотнесения с физическим
+      миром, является неадекватным и не применимым для практических действий.
+    positive: В онтологии адекватность обеспечивается через отношение репрезентации
+      между понятием и 4D физическим объектом, позволяя проверять рассуждения на неотрыв
+      от реальности.
+  formalDefinition: ''
+  informalDefinition: Адекватность - это возможность проверить, связано ли абстрактное
+    мышление и порождаемые им описания ситуаций с реальным физическим миром, или оно
+    отвязано от реальности без способов проверки результатов. Это обеспечивает практичность
+    мышления, применимого для действий, без отрыва от материального мира.
+  keyProperties: []
+  metaphorRu: ''
+  notThisRu: Адекватность не следует путать с неадекватными представлениями, где мышление
+    обманывает и предлагает оторванные от реальности описания без способов проверки
+    на соответствие физическому миру.
+  oppositeRu: Неадекватность
+  purposeRu: Адекватность нужна для обеспечения практичного, применимого для действия
+    мышления, которое не отрывается от реальности, позволяя проверять результаты на
+    соответствие физическому миру и повышать качество описаний при подъеме по уровням
+    абстракции.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/abstraktnost
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/osoznannost
+  - relation: PART_OF
+    targetIri: https://example.org/concept/ratsionalnost
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/ontologiya
+  transformationPatterns: []
+  usageContextRu:
+  - семантика
+  - физика
+  - онтология
+  - рационализм
+  - системное мышление

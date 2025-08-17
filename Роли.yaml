@@ -1,0 +1,115 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: проектные роли/внешние проектные роли/оргроли/деятельностные роли/культурные
+    роли/инженерные роли/трудовые роли/практические роли
+  conceptId: https://example.org/concept/roli
+  conceptLabel: Роли
+  conceptLevel: Meta
+  conceptType: Role
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Методология
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://ru.wikipedia.org/wiki/Ролевая_игра
+  - https://vk.com/@buffdance-rasskaz-o-sistemnyh-urovnyah-v-tance
+  - https://jenabl.wordpress.com/2017/05/17/inclusivity-and-dance-terminology/
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить отличие роли от исполнителя и агента
+  - Применить понятие роли в анализе проектных ситуаций
+  - Моделировать внешние проектные роли в таблице
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение предварять реплики на совещаниях обозначением роли, моделировать
+    роли в таблицах и отличать ролевые интересы от личных.
+  personalizationHint: для методологов и системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как отличить роль от исполнителя в проектной ситуации.
+  recommendedResources:
+  - https://ru.wikipedia.org/wiki/Ролевая_игра
+  - https://vk.com/@buffdance-rasskaz-o-sistemnyh-urovnyah-v-tance
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Не путать роль и исполнителя роли
+  - Роли определяют поведение в рамках метода, не личных характеристик
+  - Внешние проектные роли определяют успешность целевой системы
+  definition_ru: Роль, представляющая функциональный объект и поведение агента-в-роли,
+    где системный мыслитель анализирует метод работы, ситуацию, ролевую игру, необходимые
+    роли для работ, цели импровизации в рамках игрового сюжета, и только затем оценивает
+    исполнителя, такого как человек, AI-агент или организация.
+  examplesRu:
+    negative: Путаница агента Васи Пупкина с ролью принца Гамлета, когда личные потребности
+      агента приписываются роли.
+    positive: В проекте инженер-прочнист как роль настаивает на толщине детали 4 см,
+      основываясь на методе роли, а не личном мнении.
+  formalDefinition: ''
+  informalDefinition: Роли представляют собой функциональные объекты, определяющие
+    поведение агента в определенной ситуации, такие как метод работы и ролевые интересы,
+    отличающиеся от самого исполнителя роли, должности или организации.
+  keyProperties:
+  - datatype: string
+    name: метод роли
+    unit: ''
+  - datatype: string
+    name: предпочтения/интересы
+    unit: ''
+  - datatype: string
+    name: стратегия агента
+    unit: ''
+  - datatype: string
+    name: исполнитель роли
+    unit: ''
+  - datatype: string
+    name: мастерство исполнителя в роли
+    unit: ''
+  - datatype: string
+    name: предмет интереса
+    unit: ''
+  metaphorRu: Роли подобны персонажам в театральной пьесе или ролевой игре, где реплики
+    и действия определяются сценарием, а не личностью актера.
+  notThisRu: Не путать роль с исполнителем роли (агентом), должностью исполнителя,
+    организацией исполнителя или личными интересами агента, а не ролевыми интересами;
+    роли не вредничают как люди, их решения следуют из метода роли.
+  oppositeRu: ''
+  purposeRu: Роли позволяют отделить метод работы от исполнителя, понять ролевые интересы
+    и стратегии, избежать путаницы между агентами, ролями и должностями, способствуя
+    методологическому и системному мышлению, а также обеспечивают возможность выполнения
+    проектов через внешние проектные роли, которые оплачивают или запрещают проект.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/functional-object
+  - relation: PART_OF
+    targetIri: https://example.org/concept/project
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/agent
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/stakeholder
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/role-playing-game
+  transformationPatterns: []
+  usageContextRu:
+  - проекты
+  - организации
+  - системное мышление
+  - методологическая работа
+  - ролевые игры
+  - театральные пьесы
+  - инженерные задачи
+  - культурные и стратегические роли

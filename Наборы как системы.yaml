@@ -1,0 +1,92 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: наборов/collections систем
+  conceptId: https://example.org/concept/nabory-kak-sistemy
+  conceptLabel: Наборы как системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Классифицировать наборы как системы на основе наличия взаимодействия и эмерджентных
+    свойств
+  - Анализировать примеры групповых систем в проектах
+  marzanoLevel: Analysis
+  masteryCriteria: Способность самостоятельно определять, является ли набор системой
+    в конкретной ситуации, с обоснованием.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, когда набор объектов можно считать системой, с примерами
+    из производства.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Отсутствие взаимодействия и макроэффектов делает набор не системой
+  - Зависит от конкретной ситуации и использования
+  definition_ru: Класс, представляющий группы или наборы однородных объектов, которые
+    могут быть классифицированы как системы в зависимости от ситуации, наличия взаимодействия
+    между элементами, эмерджентных свойств или совместного воздействия на окружение,
+    но чаще всего не являются системами без этих факторов.
+  examplesRu:
+    negative: Материалы как неисчисляемые существительные без формы или упаковки,
+      где набор не образует систему.
+    positive: Группа невзаимодействующих модулей в системе для масштабируемости, где
+      общая производительность относится к группе как к подсистеме.
+  formalDefinition: ''
+  informalDefinition: Наборы как системы - это группы однородных объектов, которые
+    могут рассматриваться как системы при наличии взаимодействия, эмерджентных свойств
+    или совместного поведения, хотя часто они не являются системами без таких характеристик.
+  keyProperties:
+  - datatype: ''
+    name: Взаимодействие через среду
+    unit: ''
+  - datatype: ''
+    name: Эмерджентные свойства
+    unit: ''
+  - datatype: ''
+    name: Совместное поведение на окружение
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с простыми кучами однородных систем без взаимодействия или
+    эмерджентных свойств; не относится к материалам как неисчисляемым существительным
+    без формы или упаковки.
+  oppositeRu: ''
+  purposeRu: Понятие помогает классифицировать группы объектов для использования в
+    проектах, определяя, когда набор можно считать системой для анализа свойств, таких
+    как надежность, масштабируемость или пространственные характеристики.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/system
+  - relation: PART_OF
+    targetIri: https://example.org/concept/systemnaya-inzheneriya
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/emerdzhentnost
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/partii-loty
+  transformationPatterns: []
+  usageContextRu:
+  - Классификация партий, лотов или серий в производстве
+  - Анализ зон покрытия территорий сервисом
+  - Рассмотрение систем с избыточностью подсистем для надежности
+  - Обсуждение групповых систем в системной инженерии

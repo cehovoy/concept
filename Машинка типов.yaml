@@ -1,0 +1,105 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/mashinka-tipov
+  conceptLabel: Машинка типов
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://iep.utm.edu/concepts/
+  - https://iep.utm.edu/th-th-co/
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '4'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Присваивать типы объектам и отношениям в моделях и текстах
+  - Выявлять несоответствия типов в рассуждениях
+  - Удерживать внимание на типах технически путем записи
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Беглая работа машинки типов в рабочих проектах, подтвержденная
+    внешней оценкой, с выявлением нелепостей в примерах текстов.
+  personalizationHint: для инженеров-менеджеров
+  prerequisiteConcepts:
+  - https://example.org/concept/ponyatiizatsiya
+  - https://example.org/concept/sobrannost
+  - https://example.org/concept/semantika
+  promptHintRu: Опиши, как машинка типов помогает в критике текста о ролях и агентах.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Требует внешней оценки для подтверждения работы
+  - 'Опирается на предыдущее содержание интеллект-стека: понятизация, собранность,
+    семантика'
+  definition_ru: Процесс, который отвечает за присвоение типов и контроль типов в
+    описаниях, документированных в текстах с разным уровнем формальности, а также
+    в моделях из объектов и отношений. Машинка типов работает в голове, выделяя объекты
+    по типу вниманием и удерживая их технически путем записи, помогает в критике текстов,
+    выявлении несоответствий типов и опирается на теории понятий, такие как теория
+    прототипов.
+  examplesRu:
+    negative: Спрашивать инженера (роль) о том, как ему спалось, вместо агента, что
+      является сбоем в машинке типов.
+    positive: При чтении 'лидер - это роль, какая роль у роли?' машинка типов вызывает
+      напряжение из-за несоответствия типов, помогая выявить нелепость.
+  formalDefinition: ''
+  informalDefinition: Машинка типов - это механизм в мышлении, который присваивает
+    типы объектам и отношениям, контролирует их соответствие и помогает выявлять нелепости
+    в текстах и рассуждениях. Она развивается через освоение рациональной работы и
+    требует технического удержания внимания путем записи.
+  keyProperties:
+  - datatype: ''
+    name: Присвоение типов
+    unit: ''
+  - datatype: ''
+    name: Контроль типов
+    unit: ''
+  - datatype: ''
+    name: Удержание внимания путем записи
+    unit: ''
+  - datatype: ''
+    name: Выявление нелепостей в тексте
+    unit: ''
+  metaphorRu: Машинка типов как встроенный в голову детектор несоответствий, запрещающий
+    мозгу принимать ахинею за нормальный текст.
+  notThisRu: Не следует путать с биологическим вниманием или ментальным удержанием
+    без технической записи; также не является просто рациональным пониманием факта
+    наличия типа у объекта, а требует беглой работы в проектах.
+  oppositeRu: ''
+  purposeRu: Машинка типов предназначена для обеспечения беглого присвоения и контроля
+    типов в рабочих проектах, выявления нелепостей и противоречий в текстах, критики
+    в ходе творчества, а также для предотвращения принятия ахинеи за нормальный текст
+    в рассуждениях об интеллекте и мышлении.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/teoriya-ponyatiy
+  - relation: PART_OF
+    targetIri: https://example.org/concept/intellekt-stek
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/rol
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sobrannost
+  transformationPatterns: []
+  usageContextRu:
+  - Освоение рациональной работы в инженерах-менеджерах
+  - Моделирование объектов и отношений в текстах или диаграммах
+  - Критика текстов и выявление ошибок типов в системном мышлении
+  - Работа с теориями понятий в интеллект-стеке

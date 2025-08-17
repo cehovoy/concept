@@ -1,0 +1,101 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/r-onstruktivnye-rassmotreniya
+  conceptLabel: Конструктивные рассмотрения
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач
+  - https://ailev.livejournal.com/1611838.html
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить различие между конструктивными и функциональными рассмотрениями в системной
+    инженерии
+  - Применить конструктивные рассмотрения для выбора модулей в проекте
+  - Согласовать конструктивные аспекты с функциональной декомпозицией
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность описать и применить конструктивные рассмотрения в анализе
+    системы, демонстрируя согласованность с функциональными частями и учет аффордансов.
+  personalizationHint: для инженеров-системщиков
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как конструктивные рассмотрения влияют на выбор модулей в системном
+    проекте.
+  recommendedResources:
+  - https://ru.wikipedia.org/wiki/Теория_решения_изобретательских_задач
+  - https://ailev.livejournal.com/1611838.html
+  soloLevel: Multistructural
+Semantics:
+  constraints:
+  - Должны быть согласованы с функциональными разбиениями
+  - Учитывают ограничения компоновки и стоимости
+  definition_ru: Процесс, который подразумевает рассмотрение материальных объектов-конструктивов,
+    существующих вне времени эксплуатации системы, включая этапы создания и вне проекта,
+    с поиском аффордансов и подходящих характеристик для подсистем, а также согласование
+    с функциональными разбиениями.
+  examplesRu:
+    negative: Игнорирование аффордансов конструктивов при функциональном анализе приводит
+      к несогласованности и потере времени на переработку.
+    positive: В разработке принципиальной схемы изделия инженер учитывает конструктивы
+      для воплощения ролей, обеспечивая компоновку и оценку стоимости.
+  formalDefinition: ''
+  informalDefinition: Конструктивные рассмотрения включают анализ материальных объектов
+    как конструктивов, поиск в них аффордансов и подходящих модулей для реализации
+    функций системы, в отличие от функциональных описаний.
+  keyProperties:
+  - datatype: ''
+    name: Материальность
+    unit: ''
+  - datatype: ''
+    name: Аффордансы
+    unit: ''
+  - datatype: ''
+    name: Согласованность с функциональными частями
+    unit: ''
+  metaphorRu: Конструктивные рассмотрения подобны выбору строительных материалов для
+    дома, где функциональные роли определяют план, а конструктивы обеспечивают физическую
+    реализацию.
+  notThisRu: Не путать с функциональными рассмотрениями, которые фокусируются на ролях
+    и поведении, а не на материальных объектах; также не сводится к пространственным
+    или стоимостным частям системы.
+  oppositeRu: ''
+  purposeRu: Конструктивные рассмотрения служат для выбора и компоновки материальных
+    компонентов системы, обеспечивая реализацию ролей и функций через воплощение в
+    физических объектах, что позволяет согласовать функциональные и конструктивные
+    аспекты для успешного проектирования.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/funktsionalnaya-dekompozitsiya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/orgzvenya
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/prostranstvennye-rassmotreniya
+  transformationPatterns:
+  - Функциональная роль → Конструктивное воплощение
+  - Альтернативные идеи → Рациональный выбор конструктива
+  usageContextRu:
+  - В системной инженерии при функциональной декомпозиции и анализе
+  - При порождении альтернативных идей по конструкции для реализации функций
+  - В обсуждении оргзвеньев и их интерфейсов в организациях

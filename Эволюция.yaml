@@ -1,0 +1,110 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: Биологическая эволюция / Меметическая эволюция / Техно-эволюция
+  conceptId: https://example.org/concept/evolyuciya
+  conceptLabel: Эволюция
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Эволюционная биология
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://www.science.org/doi/10.1126/science.abq7487
+  - https://ailev.livejournal.com/1416697.html
+  - https://ru.wikipedia.org/wiki/Эволюционная_биология_развития
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '4'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  - Application
+  learningObjectives:
+  - Объяснить различия между биологической, меметической и техно-эволюцией
+  - Анализировать роль эмерджентности в эволюционных процессах
+  - Применить концепцию эволюции к инженерным системам
+  marzanoLevel: Analysis
+  masteryCriteria: Способность описать эволюцию как процесс с примерами из разных
+    областей и отличить от связанных понятий.
+  personalizationHint: для инженеров и биологов
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как эволюция применяется в continuous development инженерных
+    систем.
+  recommendedResources:
+  - https://www.science.org/doi/10.1126/science.abq7487
+  - https://ailev.livejournal.com/1416697.html
+  - https://ru.wikipedia.org/wiki/Эволюционная_биология_развития
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Эволюция происходит с неэргодическими системами с памятью
+  - В биологической эволюции информация передается через мутации, в техно-эволюции
+    - напрямую
+  definition_ru: Процесс, представляющий собой всеобщее явление изменений, разделяемое
+    на биологическую эволюцию (от молекул к организмам), меметическую эволюцию (эволюцию
+    понятий-мемов в символьных или распределенных представлениях) и техно-эволюцию
+    (мутации технических систем через изобретения), где эволюция бесконечна и включает
+    решение все более сложных проблем, с учетом влияния среды, происхождения видов
+    и развития организмов.
+  examplesRu:
+    negative: Считать эволюцию простым гомеостазом, где акцент на неизменности, а
+      не на изменениях и усложнении.
+    positive: В биологической эволюции усложнение от клеток к организмам приводит
+      к появлению новых свойств, таких как интеллект.
+  formalDefinition: ''
+  informalDefinition: Эволюция - это процесс изменений, проявляющийся в различных
+    формах, таких как биологическая, меметическая и техно-эволюция, где целое становится
+    больше суммы частей за счет появления новых свойств.
+  keyProperties:
+  - datatype: string
+    name: Эмерджентность
+    unit: ''
+  - datatype: string
+    name: Усложнение
+    unit: ''
+  - datatype: string
+    name: Многоуровневость
+    unit: ''
+  - datatype: string
+    name: Бесконечность
+    unit: ''
+  metaphorRu: Эволюция как алгоритм, где Земля ставит все более сложные проблемы видам,
+    приводя к мастерству в их решении.
+  notThisRu: Эволюцию не следует путать с гомеостазом, который фокусируется на поддержании
+    равновесия и неизменности, в отличие от эволюции с акцентом на изменения и усложнение;
+    также не путать с простым development в инженерии, которое не всегда эволюционно.
+  oppositeRu: Гомеостаз
+  purposeRu: Эволюция обеспечивает бесконечное развитие знаний и систем, позволяя
+    решать все более сложные проблемы, улучшать и универсализировать инженерные системы,
+    а также адаптироваться к изменениям через механизмы, подобные дарвиновской эволюции,
+    но с возможностью прямой передачи опыта в техно-эволюции.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/emerdzhentnost
+  - relation: PART_OF
+    targetIri: https://example.org/concept/meta-sistemnyj-perehod
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/biologicheskaya-evolyuciya
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/eco-evo-devo
+  transformationPatterns:
+  - Мутации → Новые свойства
+  - Неустроенность → Мета-системный переход
+  - Проблемы → Решения через усложнение
+  usageContextRu:
+  - Биологическая эволюция в развитии от молекул к популяциям
+  - Меметическая эволюция в нейронных сетях и больших языковых моделях
+  - Техно-эволюция в инженерии, включая continuous development и эволюционную архитектуру
+  - Эволюция как многоуровневое обучение в экологии, эволюционной биологии и биологии
+    развития (eco-evo-devo)

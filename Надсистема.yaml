@@ -1,0 +1,93 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: suprasystem / using system
+  conceptId: https://example.org/concept/nadsistema
+  conceptLabel: Надсистема
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - ISO 15288:2023
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить роль надсистемы в системном разбиении
+  - Выявить надсистему для данной целевой системы на основе иерархии состава
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение правильно выделить надсистему в примерах, отличая её от
+    окружения и подсистем, с обоснованием по критериям состава.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как выявить надсистему для целевой системы в проекте, с примерами
+    из системной инженерии.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Целевая система должна быть неотъемлемой частью надсистемы в момент эксплуатации
+  - Выявление надсистемы требует проверки на отсутствие пропущенных систем в разбиении
+  definition_ru: Класс, представляющий собой систему, в которую целевая система входит
+    как неотъемлемая физическая часть в момент эксплуатации, образуя системное разбиение
+    по иерархии состава, где надсистема может быть выявлена через роли и функции в
+    более высоких системных уровнях, и часто требует выявления пропущенных систем
+    для правильного именования.
+  examplesRu:
+    negative: Человечество как надсистема для системы перевозки самолётов - это слишком
+      общее и бесполезное определение, игнорирующее конкретную иерархию.
+    positive: Семья как надсистема для мужчины и женщины, где они находятся в эксплуатационном
+      окружении друг друга.
+  formalDefinition: ''
+  informalDefinition: Надсистема - это более широкая система, в которую целевая система
+    входит как неотъемлемая физическая часть во время эксплуатации, образуя иерархию
+    по отношению состава/сборки/часть-целое.
+  keyProperties:
+  - datatype: ''
+    name: Включает целевую систему как неотъемлемую физическую часть
+    unit: ''
+  - datatype: ''
+    name: Образуется по иерархии состава/сборки/часть-целое
+    unit: ''
+  - datatype: ''
+    name: Может изменяться по согласованию с владельцами
+    unit: ''
+  metaphorRu: Матрешка, где внешняя кукла - надсистема, а внутренняя - целевая система,
+    входящая в её состав.
+  notThisRu: Не путать с системами в окружении, которые не включают целевую систему
+    в свой состав, или с слишком общими понятиями вроде 'человечества' или 'вселенной',
+    а также с отношениями, не связанными с иерархией часть-целое.
+  oppositeRu: Подсистема
+  purposeRu: Надсистема используется для выявления контекста целевой системы в более
+    широкой иерархии, обеспечения согласованности в системном разбиении и влияния
+    на внешние роли для эволюции систем, помогая избежать ошибок в выделении систем
+    и их окружения.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistema
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/tselevaya-sistema
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/semya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/nad-nadsistema
+  transformationPatterns: []
+  usageContextRu:
+  - Системная инженерия по ISO 15288:2023
+  - ТРИЗ
+  - Проектирование и эксплуатация систем, включая выявление владельцев и ролей

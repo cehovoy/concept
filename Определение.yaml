@@ -1,0 +1,97 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: гробик для умершей мысли / родовидовое определение / словарное определение
+  conceptId: https://example.org/concept/opredelenie
+  conceptLabel: Определение
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системное мышление
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - 'Витгенштейн: смысл слов определяется их употреблением'
+  - 'Аристотель: родовидовые определения'
+  - 'Щедровицкий: определение — гробик для умершей мысли'
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  - Application
+  learningObjectives:
+  - Понять, почему определения часто бесполезны в спорах и обучении
+  - Различать определения от употреблений в контексте
+  - Применить идею отказа от определений в обсуждении понятий
+  marzanoLevel: Comprehension
+  masteryCriteria: Обучающийся может объяснить вред определений и привести примеры
+    их замены на употребления в контексте, избегая споров о терминах.
+  personalizationHint: для изучающих системное мышление
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, почему определения — это гробик для умершей мысли, и как
+    вместо них использовать примеры употребления по Витгенштейну.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Не применимо в системном мышлении для жизни, только в математике
+  - Вызывает споры и просьбы уточнить
+  definition_ru: Класс, представляющий собой родовидовое описание понятия по Аристотелю,
+    где вид определяется как специализация рода с характерными признаками, но в жизни
+    такие определения помогают мало, вызывают споры и просьбы уточнить, являясь гробиком
+    для умершей мысли, и лучше заменяются наборами употреблений по Витгенштейну для
+    связи понятий с физическим миром.
+  examplesRu:
+    negative: Попытка определить сложное понятие вроде 'сепулька' как изделие для
+      сепуления в споре, что приводит только к путанице и бесплодным обсуждениям без
+      связи с контекстом употребления.
+    positive: Апельсин — это вид рода цитрус семейства рутовые, а также плод этого
+      дерева, что может быть полезно в формальной классификации.
+  formalDefinition: ''
+  informalDefinition: Определение — это способ описания понятия через род и видовые
+    отличия, часто бесполезный в спорах и обучении, поскольку запутывает ситуацию
+    и не помогает в понимании смысла, в отличие от примеров употребления в контексте.
+  keyProperties:
+  - datatype: string
+    name: Родовидовой характер
+    unit: ''
+  - datatype: string
+    name: Специализация рода
+    unit: ''
+  - datatype: string
+    name: Отличительные признаки вида
+    unit: ''
+  metaphorRu: Определение — это гробик для умершей мысли, как сказал Щедровицкий.
+  notThisRu: Не путать с употреблением слова в контексте языковой игры по Витгенштейну,
+    где значение определяется примерами использования, а не формальными определениями;
+    также не является описанием системы или моделированием в системной инженерии.
+  oppositeRu: https://example.org/concept/upotreblenie-v-kontekste
+  purposeRu: Определение предназначено для уточнения смысла слова или понятия через
+    род и вид, но на практике оно часто только запутывает ситуацию, стимулирует споры
+    и не способствует пониманию, особенно в системном мышлении, где важнее контекст
+    употребления и связи с другими объектами.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/upotreblenie-slova
+  - relation: IS_A
+    targetIri: https://example.org/concept/rodovidovoe-opredelenie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/apelsin-kak-vid-citrus
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/znachenie-po-vitgenshteynu
+  transformationPatterns: []
+  usageContextRu:
+  - В спорах и общении, где приводит к бесплодным дискуссиям
+  - В обучении, где не помогает в освоении понятий
+  - В математике, где может быть полезным для точных объектов

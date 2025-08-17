@@ -1,0 +1,93 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/pokoleniya-sistemogo-podkhoda
+  conceptLabel: Поколения системного подхода
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить различия между поколениями системного подхода
+  - Применить концепцию третьего поколения в анализе эволюции систем
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность описать этапы и их добавления, а также привести примеры
+    применения в системной инженерии.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как третье поколение системного подхода учитывает эволюцию
+    систем в сравнении с предыдущими поколениями.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Класс, представляющий этапы развития системного подхода, где первое
+    поколение фокусируется на системе в ее окружении во время эксплуатации, второе
+    добавляет роль создателей и граф их взаимодействия, а третье учитывает бесконечное
+    развитие и эволюцию систем с увеличением сложности.
+  examplesRu:
+    negative: Рассмотрение системы только в момент эксплуатации без учета создателей
+      и развития, что соответствует первому поколению, но игнорирует достижения последующих.
+    positive: В третьем поколении системного подхода учитывается эволюция системы
+      как развивающегося вида, что применяется в проектах с множественными жизненными
+      циклами.
+  formalDefinition: ''
+  informalDefinition: Поколения системного подхода представляют собой этапы эволюции
+    концепции системного подхода, где каждое последующее поколение включает достижения
+    предыдущего и добавляет новые аспекты, начиная от рассмотрения системы в окружении
+    до учета ее создания, развития и эволюции.
+  keyProperties:
+  - datatype: ''
+    name: Первое поколение
+    unit: ''
+  - datatype: ''
+    name: Второе поколение
+    unit: ''
+  - datatype: ''
+    name: Третье поколение
+    unit: ''
+  metaphorRu: Поколения системного подхода подобны эволюции видов, где каждое поколение
+    наследует черты предыдущего и адаптируется к новым условиям.
+  notThisRu: Не следует путать с поколениями системного мышления в менеджменте, где
+    акцент на первом и втором поколениях без учета бесконечного развития и эволюции,
+    как в третьем поколении.
+  oppositeRu: ''
+  purposeRu: Поколения системного подхода служат для понимания эволюции системного
+    мышления, позволяя учитывать не только эксплуатацию систем, но и их создание,
+    развитие и множественные жизненные циклы, что помогает в проектах по созданию
+    и эволюции сложных систем.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistemnyj-podhod
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnaya-inzheneriya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/von-bertalanffy
+  transformationPatterns:
+  - Первое поколение → Второе поколение
+  - Второе поколение → Третье поколение
+  usageContextRu:
+  - Системная инженерия
+  - Менеджмент организаций
+  - Развитие знаний о распределенных представлениях

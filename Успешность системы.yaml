@@ -1,0 +1,95 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/uspeshnost-sistemy
+  conceptLabel: Успешность системы
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системное мышление
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить разницу между успешностью системы и рыночной успешностью
+  - Описать, как учитывать предпочтения агентов для достижения успешности
+  - Применить понятие успешности к оценке проекта системы
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение выявить агентов, оценить их предпочтения и обосновать успешность
+    системы на основе субъективных критериев.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как оценить успешность системы с учетом предпочтений всех
+    агентов.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Не может быть полностью успешной, если не учтены все обнаруженные агенты
+  - Требует усилий на обнаружение агентов
+  - Может быть оценена по шкале, не бинарно
+  definition_ru: Свойство, при котором проект создания системы учитывает ролевые предпочтения
+    всех затрагивающих систему агентов и всех затрагиваемых системой и её проектом
+    агентов, с усилиями на обнаружение этих агентов; успешность определяется субъективно
+    по удовлетворению потребностей заказчиков, пользователей и других проектных ролей,
+    включая внутренних, и не сводится к соблюдению сроков, бюджета или рыночной успешности.
+  examplesRu:
+    negative: Система, построенная в срок и бюджет, но игнорирующая предпочтения затрагиваемых
+      агентов, таких как владелец земли.
+    positive: Система, где учтены предпочтения всех stakeholders, включая этические
+      аспекты, и все роли довольны результатом.
+  formalDefinition: ''
+  informalDefinition: Успешность системы определяется учетом предпочтений всех агентов,
+    затрагивающих и затрагиваемых системой, а не только рыночной или проектной успешностью.
+    Это субъективная характеристика, зависящая от удовлетворения ожиданий различных
+    ролей.
+  keyProperties:
+  - datatype: string
+    name: Учет предпочтений агентов
+    unit: ''
+  - datatype: string
+    name: Субъективность оценки
+    unit: ''
+  - datatype: string
+    name: Многомерность
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с рыночной успешностью, успешностью менеджерского проекта по
+    срокам и бюджету, или систематичностью; например, система, построенная на украденной
+    земле в срок и бюджет, не является успешной из-за неучтенных предпочтений владельца.
+  oppositeRu: ''
+  purposeRu: Успешность системы служит критерием для оценки, изменяет ли система мир
+    к лучшему, обеспечивая непрерывное согласие внешних проектных ролей с ходом и
+    результатами проекта, и учитывает этические и коммерческие аспекты для предотвращения
+    создания ненужных или вредных систем.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnaya-inzheneriya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/proektnye-roli
+  - relation: IS_A
+    targetIri: https://example.org/concept/svojstvo-sistemy
+  transformationPatterns: []
+  usageContextRu:
+  - В системной инженерии для оценки проектов
+  - В стратегировании и выявлении систем
+  - В техноэволюционном рассмотрении систем на разных уровнях

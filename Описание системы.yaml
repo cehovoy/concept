@@ -1,0 +1,93 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/opisanie-sistemy
+  conceptLabel: Описание системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить различие между описанием системы и ее воплощением.
+  - Описать состояние продвижения описания системы в проекте.
+  - Применить описание системы для оценки проектных решений.
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение отличать описание от воплощения, правильно заполнять таблицы
+    с воплощениями, описаниями и документами, и использовать для коллективной разработки.
+  personalizationHint: для инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как отличить описание системы от ее воплощения в проекте создания
+    самолета.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Описание должно быть независимым от конкретной базы данных или формата вывода.
+  - Не должно путаться с самим воплощением системы.
+  definition_ru: Класс, представляющий собой информационную модель системы, которая
+    может содержаться в базах данных, включать проектные решения, детальность от технико-экономического
+    до рабочего проекта, и оцениваться по состоянию от отсутствия до полной готовности
+    для изготовления.
+  examplesRu:
+    negative: Считать базу данных с описанием ракетного двигателя самим двигателем,
+      а не его описанием.
+    positive: В базе данных описывается разбиение самолета на части с указанием проектных
+      решений, что позволяет оценить готовность описания для изготовления.
+  formalDefinition: ''
+  informalDefinition: Описание системы - это информационная модель или представление
+    системы, содержащее данные о ее структуре, решениях и состоянии, независимо от
+    формата хранения или представления.
+  keyProperties:
+  - datatype: string
+    name: Детальность
+    unit: ''
+  - datatype: string
+    name: Формат представления
+    unit: ''
+  - datatype: string
+    name: Состояние продвижения
+    unit: ''
+  metaphorRu: 'Описание системы подобно фотографии человека: это представление, а
+    не сам объект.'
+  notThisRu: Не путать с воплощением системы (физическим объектом), разбиением системы
+    (структурой частей в самой системе) или документом описания (носителем информации).
+  oppositeRu: ''
+  purposeRu: Описание системы используется для отслеживания состояния системы независимо
+    от базы данных или формата представления, позволяет оценивать продвижение от отсутствия
+    описания до достаточного для изготовления, и обеспечивает коллективную разработку
+    через символьные описания для доступа, исправлений и ознакомления.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/voploshchenie-sistemy
+  - relation: IS_A
+    targetIri: https://example.org/concept/model
+  - relation: PART_OF
+    targetIri: https://example.org/concept/alfa-opisaniya-sistemy
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/funktsionalnoe-opisanie
+  transformationPatterns: []
+  usageContextRu:
+  - В проектах по созданию систем, таких как самолет Боинг 747, для проверки проектных
+    решений.
+  - В оценке состояния альфы описания системы в цепочке создания.
+  - В моделировании систем с указанием функций, ролей, потребностей и сценариев использования.

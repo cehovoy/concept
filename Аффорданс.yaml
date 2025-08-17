@@ -1,0 +1,102 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: affordance
+  conceptId: https://example.org/concept/affordans
+  conceptLabel: Аффорданс
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://en.wikipedia.org/wiki/Affordance
+  - https://arxiv.org/abs/2110.14602
+  - https://www.activeinference.org/
+  - https://arxiv.org/abs/2206.08896
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Подобрать аффорданс для заданной функции в системе
+  - Объяснить зависимость аффорданса от агента и окружения
+  - Различить аффорданс от функционального объекта в примерах
+  marzanoLevel: Analysis
+  masteryCriteria: Умение идентифицировать и обосновывать выбор аффорданса в сценарии,
+    демонстрируя понимание его роли в изобретении и системах.
+  personalizationHint: для инженеров и изобретателей
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как агент может использовать камень как аффорданс для роли
+    забивала гвоздей в столярной мастерской.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Аффорданс должен быть подходящим для выполнения функции в окружении
+  - Функциональность аффорданса зависит от агента и не является объективной
+  definition_ru: Класс, представляющий собой единство агента и конструктивного объекта
+    из окружающей среды, подходящего для выполнения функции, где функциональность
+    задается агентом, вменяющим нейтральному объекту нужную роль в целевой системе,
+    что составляет суть изобретения через модульный синтез конструкции для известной
+    функции.
+  examplesRu:
+    negative: 'Признание микроскопа аффордансом для забивала гвоздей: объект неподходящий
+      по прочности и удобству, что приводит к неудаче.'
+    positive: 'Молоток как аффорданс для роли забивала гвоздей: агент подбирает тяжелый
+      железный объект для передачи энергии гвоздю.'
+  formalDefinition: ''
+  informalDefinition: Аффорданс - это конструктивный объект из окружающей среды, который
+    агент использует для выполнения нужной функции, приписывая ему функциональность,
+    зависящую от агента. Это подчеркивает единство агента и объекта, где подбор аффорданса
+    является формой изобретения.
+  keyProperties:
+  - datatype: string
+    name: Зависимость от агента
+    unit: ''
+  - datatype: string
+    name: Функциональная нейтральность исходного объекта
+    unit: ''
+  - datatype: string
+    name: Роль в изобретении
+    unit: ''
+  metaphorRu: Аффорданс подобен ключу, который агент находит в окружающей среде и
+    использует для открытия двери функции, хотя ключ изначально не предназначен для
+    этого.
+  notThisRu: Аффорданс не является самим агентом или целевой системой, как в примере
+    с Олегом, где он - создатель, а не аффорданс; не путать с функциональным объектом
+    без указания на конструктив.
+  oppositeRu: ''
+  purposeRu: Аффорданс служит для подбора подходящего конструктивного объекта для
+    выполнения функции в системе, позволяя агенту изобретать путем приписывания функциональности,
+    решая проблему поиска материалов или инструментов в окружении для достижения цели.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/agent
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistema-sozdaniya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/molotok
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/funktsiya
+  transformationPatterns:
+  - Функционально-нейтральный объект → Аффорданс через приписывание функции агентом
+  - Конструктив → Роль в системе создания
+  usageContextRu:
+  - Выбор инструментария в стратегировании, например, подбор объекта для роли забивала
+    гвоздей
+  - Моделирование функциональных и конструктивных объектов в системах создания
+  - Изобретение через поиск аффордансов в окружающей среде для выполнения ролей

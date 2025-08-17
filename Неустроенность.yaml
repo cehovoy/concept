@@ -1,0 +1,107 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: неустаканенность/frustrations/geometrical frustration
+  conceptId: https://example.org/concept/neustroennost
+  conceptLabel: Неустроенность
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L3
+    nameRu: Биологическая сложность
+  domain: Эволюционирующие системы
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://en.wikipedia.org/wiki/Geometrical_frustration
+  - https://www.pnas.org/doi/10.1073/pnas.1807890115
+  - https://ru.wikipedia.org/wiki/Эргодичность
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить, как конфликты на разных системных уровнях приводят к неустроенности
+  - Описать роль неустроенности в эволюции систем
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение привести примеры неустроенности из биологии и объяснить
+    ее связь с разнообразием конфигураций.
+  personalizationHint: для системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как неустроенность влияет на разнообразие в эволюционирующих
+    системах.
+  recommendedResources:
+  - https://en.wikipedia.org/wiki/Geometrical_frustration
+  - https://www.pnas.org/doi/10.1073/pnas.1807890115
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Возникает из конфликтов целей поддержания устойчивости (NESS) на разных уровнях
+  - Не приводит к статической оптимизации, так как оптимальность меняется со временем
+  definition_ru: Свойство, представляющее собой феномен в эволюционирующих системах,
+    где конфликты целей поддержания устойчивости на разных уровнях организации приводят
+    к огромному разнообразию квазиустойчивых конфигураций, каждая из которых квазиоптимальна,
+    с легкими переходами между квазиоптимумами, делая общий набор конфигураций неустойчивым
+    и неравновесным; неустроенности бывают пространственными или во времени и связаны
+    с неэргодичностью систем, обладающих памятью.
+  examplesRu:
+    negative: Смешение неустроенности с психологической фрустрацией, когда физическое
+      явление ошибочно интерпретируется как мыслительное затруднение.
+    positive: В биологии клетки печени стремятся неограниченно размножаться, но это
+      подавляется на уровне организма, чтобы избежать рака, что создает неустроенность
+      и разнообразие конфигураций.
+  formalDefinition: ''
+  informalDefinition: Неустроенность - это свойство эволюционирующих систем, возникающее
+    из конфликтов целей на разных уровнях, что приводит к разнообразию квазиустойчивых
+    конфигураций, где каждая конфигурация квазиоптимальна, а переходы между ними легки,
+    делая общий набор неустойчивым и неравновесным.
+  keyProperties:
+  - datatype: ''
+    name: Разнообразие квазиустойчивых конфигураций
+    unit: ''
+  - datatype: ''
+    name: Квазиоптимальность каждой конфигурации
+    unit: ''
+  - datatype: ''
+    name: Легкость переходов между квазиоптимумами
+    unit: ''
+  - datatype: ''
+    name: Неустойчивость и неравновесность общего набора
+    unit: ''
+  - datatype: ''
+    name: Пространственные или временные проявления
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с психологическими фрустрациями; это физическое явление geometrical
+    frustration, не имеющее отношения к мыслительным затруднениям.
+  oppositeRu: ''
+  purposeRu: Понятие неустроенности используется для обсуждения разных вариантов эволюции,
+    объяснения разнообразия конфигураций и видов в системах, а также для понимания
+    конфликтов между системными уровнями, что помогает в анализе эволюционных процессов
+    и оптимизаций.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/evolyucioniruyushchie-sistemy
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/geometrical-frustration
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/neergodichnost
+  - relation: CAUSED_BY
+    targetIri: https://example.org/concept/konflikty-mezhdu-sistemnimi-urovnyami
+  transformationPatterns:
+  - Конфликт уровней → Неустроенность → Разнообразие конфигураций
+  usageContextRu:
+  - Эволюционирующие системы и их конфигурации
+  - Конфликты целей на разных уровнях организации в биологии (молекулы, клетки, организмы,
+    популяции)
+  - Анализ неэргодических систем с памятью
+  - Межуровневые конфликты в оптимизации конструкций репликаторов

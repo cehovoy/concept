@@ -1,0 +1,95 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/silnoe-myshlenie
+  conceptLabel: Сильное мышление
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '4'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Освоить обобщения с опусканием ненужных деталей для эффективности мышления
+  - Задействовать весь интеллект-стек в мыслительных процессах
+  - Применять сильное мышление в разнообразных проектах без выключения
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Способность объяснить характеристики сильного мышления и применить
+    их в принятии решений, демонстрируя осознанность и рациональность.
+  personalizationHint: для агентов с фокусом на трансдисциплинарность
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как сильное мышление помогает в планировании проектов с использованием
+    интеллект-стека.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Процесс, который всегда включает обобщения с опусканием ненужных
+    для предмета мышления деталей, обеспечивая абстрактность в сложных ситуациях для
+    планирования. Сильное мышление задействует весь интеллект-стек, включая методы
+    из теории понятий, онтологии, логики, рациональности и системного мышления, и
+    характеризуется осознанностью, адекватностью, абстрактностью и рациональностью.
+  examplesRu:
+    negative: Клиповое мышление, когда человек отвлекается на телеграм-каналы во время
+      работы, не является сильным, так как не обеспечивает глубокую сосредоточенность.
+    positive: В проекте сильное мышление применяется для обобщения ситуаций, опуская
+      ненужные детали, чтобы планировать изменения моделей себя и мира.
+  formalDefinition: ''
+  informalDefinition: Сильное мышление представляет собой обобщения с опусканием ненужных
+    деталей, абстрактность в сложных ситуациях для планирования и эффективности. Оно
+    включает осознанность, адекватность, абстрактность и рациональность как ключевые
+    характеристики.
+  keyProperties:
+  - datatype: ''
+    name: Осознанность
+    unit: ''
+  - datatype: ''
+    name: Адекватность
+    unit: ''
+  - datatype: ''
+    name: Абстрактность
+    unit: ''
+  - datatype: ''
+    name: Рациональность
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не следует путать с клиповым мышлением, которое разбавлено пролистыванием
+    соцсетей и чатов, или с мышлением, не задействующим весь интеллект-стек.
+  oppositeRu: ''
+  purposeRu: Сильное мышление предназначено для компактификации мышления, чтобы один
+    раз научиться думать и применять во всех проектах, повышая эффективность вычислительных
+    ресурсов агента и освобождая их от менее важных вычислений. Оно способствует генерированию
+    догадок-опций при принятии решений на основании моделей и принятию наилучших решений
+    для деятельности.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/intellekt-stek
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: IS_A
+    targetIri: https://example.org/concept/myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/intellekt
+  transformationPatterns: []
+  usageContextRu:
+  - В разнообразии деятельностей проекта и окружающих проектов
+  - В глубокой сосредоточенной мыслительной работе
+  - В процессах принятия решений и изменения моделей себя и мира

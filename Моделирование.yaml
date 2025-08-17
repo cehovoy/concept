@@ -1,0 +1,109 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/modelirovanie
+  conceptLabel: Моделирование
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - The Nature of Modeling., Jeff Rothenberg, in Artificial Intelligence, Simulation,
+    and Modeling, L.E. William, K.A. Loparo, N.R. Nelson, eds. New York, John Wiley
+    and Sons, Inc., 1989, pp. 75-92, http://poweredge.stanford.edu/BioinformaticsArchive/PrimarySite/NIHpanelModeling/RothenbergNatureModeling.pdf
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Освоить использование моделеров для документирования моделей
+  - Применить табличное моделирование для сжатия информации
+  - Различать порождающие и дискриминативные модели в проектах
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Способность создать и задокументировать модель системы, управлять
+    её версиями и объяснить её применение в контексте.
+  personalizationHint: для инженеров и менеджеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши процесс моделирования системы с использованием табличного подхода
+    и укажи ключевые свойства.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Требует записи результатов, не полагаясь только на биологический мозг
+  - Необходимо управление конфигурацией и версионирование для нормальной работы
+  - Фокус на важных деталях, игнорируя ненужные
+  definition_ru: Процесс, представляющий собой экономически эффективное использование
+    чего-то вместо чего-то другого для некоторой когнитивной цели, позволяющий справляться
+    с миром в упрощённой манере, избегая сложности, опасности и необратимости реальности,
+    с фокусом на сжатии информации и выделении важных аспектов моделируемого объекта.
+  examplesRu:
+    negative: Попытка моделировать только в уме без документирования, что приводит
+      к потере важных деталей и невозможности управления конфигурацией.
+    positive: В проекте по созданию системы используется системное моделирование с
+      помощью системной динамики для описания работы подсистем в целом.
+  formalDefinition: ''
+  informalDefinition: Моделирование - это использование чего-то вместо реальности
+    для когнитивных целей, позволяющее упростить, обезопасить или удешевить работу
+    с объектом, абстрагируясь от ненужных деталей.
+  keyProperties:
+  - datatype: ''
+    name: Сжатие информации
+    unit: ''
+  - datatype: ''
+    name: Упрощение реальности
+    unit: ''
+  - datatype: ''
+    name: Документирование моделей
+    unit: ''
+  - datatype: ''
+    name: Использование моделеров
+    unit: ''
+  - datatype: ''
+    name: Версионирование и управление конфигурацией
+    unit: ''
+  metaphorRu: 'Моделирование - как карта вместо реальной территории: упрощает навигацию,
+    избегая полной сложности ландшафта.'
+  notThisRu: Не следует путать с ментальным актом без записи, так как моделирование
+    требует документирования; не ограничивается только системной динамикой или биологическим
+    мозгом без фиксации результатов.
+  oppositeRu: ''
+  purposeRu: Моделирование предназначено для упрощения работы с реальностью, выделения
+    важных деталей, избежания ненужных сложностей и обеспечения возможности рассуждений
+    без траты сил на несущественные аспекты, а также для документирования и удержания
+    внимания на ключевых элементах.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-modelirovanie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/sistemnaya-dinamika
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/porozhdayushchie-modeli
+  transformationPatterns:
+  - Моделируемый объект → Модель
+  - Описание типа → Пример объекта (порождающая модель)
+  - Описание → Тип объекта (дискриминативная модель)
+  usageContextRu:
+  - Системное моделирование в инженерии и менеджменте
+  - Физическое 1D моделирование систем
+  - Численное моделирование в физике и инженерии веществ
+  - Многомасштабное моделирование в добыче нефти
+  - Мышление моделированием в проектах создания систем
+  - Табличное моделирование в учебных программах

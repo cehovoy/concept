@@ -1,0 +1,99 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/graf-sozdatelej
+  conceptLabel: Граф создателей
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Моделировать граф создателей для известных систем
+  - Анализировать пути создания до целевой системы
+  - Документировать цепочки создателей в проектах
+  marzanoLevel: Analysis
+  masteryCriteria: Способность построить и объяснить граф создателей для трех систем,
+    включая оценку успешности целевой системы.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши граф создателей для процесса создания моста, включая всех создателей
+    и целевую систему.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Длина пути на графе определяется необходимостью оценки успешности целевой системы
+  - Моделирование предпочтительно в текстах, аутлайнах или таблицах, а не диаграммах
+    для рабочих проектов
+  definition_ru: Класс, представляющий собой граф, где узлы - системы (целевая и создатели),
+    а ребра - отношения создания, когда один создатель::система описывает и/или меняет
+    другую систему, образуя пути от начальных создателей до целевой системы через
+    разные времена рассмотрения (dev-time и ops-time). Граф включает цепочки, где
+    каждый создатель тоже создается, и позволяет оценивать успешность целевой системы
+    путем анализа длинных путей создания.
+  examplesRu:
+    negative: Рассмотрение только одной системы без цепочки создателей, игнорируя
+      отношения создания через разные этапы.
+    positive: 'В графе создателей для обеда: заточить топор, нарубить дрова, сделать
+      костер, добыть дичь, запечь ее и накормить семью, где семья - целевая система.'
+  formalDefinition: ''
+  informalDefinition: Граф создателей представляет собой структуру, где узлы - это
+    системы (целевая и ее создатели), а ребра - отношения создания, показывающие,
+    как одна система создает или изменяет другую. Это помогает моделировать цепочки
+    создания от инструментов до конечной целевой системы.
+  keyProperties:
+  - datatype: System
+    name: Узлы
+    unit: ''
+  - datatype: Relation
+    name: Ребра
+    unit: ''
+  - datatype: Chain
+    name: Пути
+    unit: ''
+  metaphorRu: Граф создателей подобен цепочке производства, где каждый инструмент
+    создается для создания следующего, ведущего к конечному продукту.
+  notThisRu: Не следует путать с простыми диаграммами без учета отношений создания
+    через разные времена или с моделями, где не рассматриваются цепочки создателей
+    до целевой системы.
+  oppositeRu: ''
+  purposeRu: Граф создателей используется для моделирования и документирования цепочек
+    создания систем, чтобы ответить на вопросы о ролях, командах и процессах, обеспечивая
+    понимание, как дойти до создания и развития целевой системы, и оценивать ее успешность
+    без запутывания в сложных связях.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/tselevaya-sistema
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-modelirovanie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/priemer-sozdaniya-obeda
+  - relation: IS_A
+    targetIri: https://example.org/concept/graf
+  transformationPatterns:
+  - X::система → Y::система (создание/изменение состояния)
+  usageContextRu:
+  - Системное моделирование в проектах
+  - Инженерные процессы разработки
+  - Менеджмент предприятий-создателей
+  - Анализ состояний объектов в проекте

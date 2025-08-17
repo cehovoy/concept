@@ -1,0 +1,102 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/emerdzhentnost
+  conceptLabel: Эмерджентность
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системный подход
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - Как думать об эмерджентности больших языковых моделей
+  - 'Emergence as the conversion of information: A unifying theory'
+  - Руководство по интеллект-стеку
+  - Руководство по системному мышлению
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives:
+  - Объяснить разницу между математической и системной эмерджентностью
+  - Привести примеры эмерджентности в системах
+  - Отличить эмерджентность от синергии
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение определять наличие эмерджентности в системе и объяснять,
+    почему объект является или не является системой на основе этого критерия.
+  personalizationHint: для системных мыслителей
+  prerequisiteConcepts:
+  - https://example.org/concept/sistemnyi-podkhod
+  - https://example.org/concept/vzaimodeistvie-chastei
+  promptHintRu: Объясни, как эмерджентность проявляется в системах, с примерами из
+    повседневной жизни.
+  recommendedResources:
+  - Как думать об эмерджентности больших языковых моделей
+  - 'Emergence as the conversion of information: A unifying theory'
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Эмерджентность проявляется только при взаимодействии частей
+  - Отсутствие эмерджентности указывает на отсутствие системы
+  definition_ru: Свойство, проявляющееся как появление новых свойств у целого объекта-системы
+    в результате взаимодействий ее частей, которых нет у этих частей по отдельности;
+    в системном мышлении эмерджентность служит главным критерием для объединения объектов
+    в систему и отличает настоящие системы от простых совокупностей объектов.
+  examplesRu:
+    negative: Три детали на складе, не взаимодействующие, не проявляют эмерджентность
+      и не образуют систему, а просто являются кучей объектов.
+    positive: В механических часах шестерёнки и пружинки взаимодействуют, порождая
+      эмерджентное свойство точности хода, которого нет у отдельных деталей.
+  formalDefinition: ''
+  informalDefinition: Эмерджентность - это появление новых свойств у целого системы
+    в результате взаимодействия ее частей, которых нет у отдельных частей. В системном
+    мышлении это ключевой критерий для определения системы.
+  keyProperties:
+  - datatype: string
+    name: Появление новых свойств
+    unit: ''
+  - datatype: string
+    name: Взаимодействие частей
+    unit: ''
+  - datatype: string
+    name: Системный эффект
+    unit: ''
+  metaphorRu: Эмерджентность подобна тому, как из отдельных шестерёнок и пружинок
+    возникают часы, показывающие время, - целое обретает свойства, отсутствующие у
+    частей.
+  notThisRu: Эмерджентность не следует путать с синергией, которая представляет собой
+    усиление существующих свойств, а не появление новых; также не путать с простым
+    объединением объектов без взаимодействия, как детали на складе.
+  oppositeRu: https://example.org/concept/reduktsionizm
+  purposeRu: Эмерджентность позволяет объяснить, почему целое больше суммы частей,
+    помогает определять системы и разбираться в сложных объектах, таких как часы или
+    интерьер дома, где новые свойства возникают на уровне целого.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistemnyi-effekt
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnyi-podkhod
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/chasy-kak-sistema
+  transformationPatterns:
+  - Части системы → Взаимодействие → Новые свойства целого
+  usageContextRu:
+  - Системное мышление для анализа взаимодействия частей в системах
+  - Исследование эмерджентности в нейросетях и больших языковых моделях
+  - Определение систем в онтологии и мета-системном переходе
+  - Отличие от синергии в бизнесе и других областях

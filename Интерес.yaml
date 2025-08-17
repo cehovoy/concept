@@ -1,0 +1,115 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: approved
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: interest / concern / ролевое предпочтение
+  conceptId: https://example.org/concept/interes
+  conceptLabel: Интерес
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://en.wikipedia.org/wiki/Hybrot
+  - https://ailev.livejournal.com/1619025.html
+  - https://arxiv.org/pdf/2503.02831
+  - https://ailev.livejournal.com/1757388.html
+  - https://www.activeinference.org/
+  - https://www.sciencedirect.com/science/article/pii/S0149763423004694
+  - https://arxiv.org/abs/2112.15242
+  - https://ru.wikipedia.org/wiki/Принцип_наименьшего_действия
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  - Application
+  learningObjectives:
+  - Объяснить различие между интересом и предметом интереса
+  - Привести примеры ролевых интересов в проекте
+  - Анализировать предпочтения ролей в важных характеристиках
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение правильно отличать интерес от характеристики и применять
+    это в моделировании ролей проекта, демонстрируя понимание через примеры и анализ.
+  personalizationHint: для системных мыслителей
+  prerequisiteConcepts:
+  - https://example.org/concept/rol
+  - https://example.org/concept/agent
+  promptHintRu: Объясни, как интерес роли влияет на согласования в проекте, приведя
+    пример с ценой для покупателя и продавца.
+  recommendedResources:
+  - https://ailev.livejournal.com/1619025.html
+  - https://arxiv.org/pdf/2503.02831
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Интерес всегда ролевой, не личный
+  - Одна характеристика может иметь разные интересы для разных ролей
+  - 'Предпочтение определяет направление: побольше/поменьше для непрерывных значений
+    или ближе к одному состоянию для дискретных'
+  definition_ru: Свойство, представляющее ролевое предпочтение или хотелку в значениях
+    важных характеристик системы или проекта, где для разных ролей одна и та же характеристика
+    может иметь противоположные предпочтения, такие как минимизация цены для покупателя
+    и максимизация для продавца, и это предпочтение определяет направление согласований
+    значений характеристик.
+  examplesRu:
+    negative: Смешивание интереса с предметом интереса, например, считать цену интересом
+      без учета предпочтения минимизации или максимизации, приводит к неверному моделированию
+      ролей.
+    positive: Для роли покупателя интерес в цене заключается в ее минимизации, что
+      приводит к согласованиям на снижение стоимости в проекте.
+  formalDefinition: ''
+  informalDefinition: Интерес представляет собой ролевое предпочтение в значениях
+    важных характеристик системы или проекта, определяющее, куда стремится агент в
+    согласованиях – к минимизации или максимизации значения. Это отличается от предмета
+    интереса, который является самой характеристикой, и связано с исполнением ролей
+    автономными агентами.
+  keyProperties:
+  - datatype: string
+    name: Ролевое предпочтение
+    unit: ''
+  - datatype: string
+    name: Направление согласования
+    unit: ''
+  - datatype: string
+    name: Связь с характеристикой
+    unit: ''
+  metaphorRu: Интерес как стрелка компаса, указывающая направление, в котором роль
+    тянет значение характеристики, в то время как сама характеристика – это карта.
+  notThisRu: Не следует путать интерес с предметом интереса (concern), который является
+    самой характеристикой, а не предпочтением в ее значениях; также не является личным
+    предпочтением агента, а только ролевым.
+  oppositeRu: https://example.org/concept/bezrazlichie
+  purposeRu: Интерес помогает понимать, чего добивается роль в проекте, позволяет
+    моделировать поведение агентов и ролей, избегая склеивания характеристики с предпочтением,
+    и обеспечивает учет ролевых предпочтений в системном мышлении для успешного перевода
+    объектов из одного состояния в другое.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/rol
+  - relation: PART_OF
+    targetIri: https://example.org/concept/proektnaia-rol
+  - relation: IS_A
+    targetIri: https://example.org/concept/predpochtenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/predmet-interesa
+  transformationPatterns:
+  - Минимизация значения характеристики → Максимизация значения характеристики
+  - Дискретное состояние A → Дискретное состояние B
+  usageContextRu:
+  - В проектах для согласования значений характеристик между ролями, такими как покупатель
+    и продавец
+  - В системном мышлении для анализа ролевых предпочтений в важных характеристиках
+  - В ролях агентов, включая людей, организации и AI-агентов, для преследования намерений
+    и переключения между ролями

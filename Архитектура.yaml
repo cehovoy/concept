@@ -1,0 +1,104 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: эволюционная архитектура / орг-архитектура / функциональная архитектура
+  conceptId: https://example.org/concept/arhitektura
+  conceptLabel: Архитектура
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная архитектура
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - http://blog.bizzdesign.com/reference-architecture-models-with-archimate
+  - https://pubs.opengroup.org/architecture/archimate32-doc/
+  - https://ru.wikipedia.org/wiki/Память_на_магнитных_сердечниках
+  - https://ru.wikipedia.org/wiki/Закон_Амдала
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить эволюцию понятия архитектуры от структуры к развиваемости
+  - Анализировать архитектурные характеристики системы
+  - Применить принципы модульности в проектировании
+  marzanoLevel: Analysis
+  masteryCriteria: Способность описать структуру системы, выявить архитектурные решения
+    и обосновать их влияние на развиваемость.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как архитектура облегчает изменения в системе, с примерами
+    из инженерии.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Архитектура накладывает ограничения на конструктивное описание
+  - Обеспечение квазиоптимальных значений архитектурных характеристик
+  definition_ru: Класс, представляющий собой определение структуры системы, включая
+    разделение на модули, облегчение изменений и обеспечение архитектурных характеристик,
+    таких как развиваемость, ремонтопригодность и надёжность, с эволюцией от понятия
+    'про трудно изменяемое' к 'про облегчение изменений', связанный с системным мышлением
+    и законами вроде Конвея.
+  examplesRu:
+    negative: Называть dataflow-диаграмму нейросети архитектурой, игнорируя модульность
+      и развиваемость, что соответствует старому значению термина.
+    positive: В эволюционной архитектуре система делится на модули по bounded contexts,
+      облегчая изменения без влияния на другие части.
+  formalDefinition: ''
+  informalDefinition: Архитектура определяет структуру системы, разделяя её на части
+    и облегчая изменения, эволюционируя от фокуса на трудно изменяемом к поддержке
+    развиваемости.
+  keyProperties:
+  - datatype: string
+    name: структура
+    unit: ''
+  - datatype: string
+    name: развиваемость
+    unit: ''
+  - datatype: string
+    name: модульность
+    unit: ''
+  - datatype: list
+    name: архитектурные характеристики
+    unit: ''
+  metaphorRu: Архитектура как главный строитель, определяющий, как разделить и соединить
+    части здания для лёгкой реконструкции.
+  notThisRu: Не путать с функциональной архитектурой как простым описанием функций
+    без модульности, или со старым значением как 'всё важное' без фокуса на развиваемости;
+    не является реализацией паттерна без учёта изменений.
+  oppositeRu: ''
+  purposeRu: Архитектура предназначена для определения структуры системы, облегчения
+    её изменений и обеспечения оптимальных архитектурных характеристик, таких как
+    развиваемость и модульность, отделяя задачи архитектора от разработчиков и гарантируя
+    баланс в конструкции системы.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnaya-inzheneriya
+  - relation: IS_A
+    targetIri: https://example.org/concept/struktura-sistemy
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/zakon-konveya
+  transformationPatterns:
+  - было 'про трудно изменяемое' → стало 'про облегчение изменений'
+  - функциональная архитектура → эволюционная архитектура
+  usageContextRu:
+  - Разработка систем в инженерии
+  - Организационная структура предприятий
+  - Эволюционная разработка ПО и нейронных сетей
+  - Применение в системном мышлении и DDD

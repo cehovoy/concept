@@ -1,0 +1,98 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/chetyre-osnovnyh-vida-opisaniya-sistemy-na-baze-chetyreh-sposobov-razbitiya-sistemy
+  conceptLabel: Четыре основных вида описания системы на базе четырёх способов разбиения
+    системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить четыре основных вида описаний системы и их связь со способами разбиения
+  - Применить эти виды описаний для анализа системы в проекте
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность выделить и описать части системы по каждому из четырёх
+    видов разбиения и обеспечить их согласованность.
+  personalizationHint: для инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как четыре основных вида описаний системы помогают в системном
+    мышлении.
+  recommendedResources: []
+  soloLevel: Multistructural
+Semantics:
+  constraints:
+  - Должны быть согласованными и не противоречить друг другу
+  - Обязательны в большинстве вариантов системного подхода
+  - Часто гибридны в жизни
+  definition_ru: 'Класс, представляющий четыре основных вида описаний системы, основанных
+    на четырёх способах разбиения системы на части: функциональные (на основе функциональной
+    декомпозиции), конструктивные (структурные, продуктовые или материальные на основе
+    структурной декомпозиции), размещения и стоимостные; эти описания обязательны
+    в системном подходе, появились в инженерных проектах последних лет, часто бывают
+    гибридными и должны быть согласованными между собой.'
+  examplesRu:
+    negative: Игнорирование стоимостного разбиения в проекте, что приводит к несогласованности
+      описаний и противоречиям.
+    positive: В инженерном проекте используются функциональные описания для времени
+      работы системы и конструктивные для материальных объектов, обеспечивая согласованность.
+  formalDefinition: ''
+  informalDefinition: Четыре основных вида описаний системы, которые отражают четыре
+    основных способа деления системы на части, обязательны в современном системном
+    мышлении; они включают функциональные, конструктивные, размещения и стоимостные
+    описания, часто встречающиеся в гибридной форме.
+  keyProperties:
+  - datatype: ''
+    name: Функциональные описания
+    unit: ''
+  - datatype: ''
+    name: Конструктивные описания
+    unit: ''
+  - datatype: ''
+    name: Стоимостное разбиение
+    unit: ''
+  - datatype: ''
+    name: Гибридность
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с единственным способом разбиения системы; не являются исключительно
+    описаниями разбиений, а включают множество разных описаний для каждого вида частей;
+    не включают пятое обсуждаемое разбиение на работы как обязательное.
+  oppositeRu: ''
+  purposeRu: Эти виды описаний конкретизируют, какие именно описания системы нужно
+    обязательно сделать в системном мышлении, чтобы учитывать разные способы разбиения
+    на части, обеспечивать согласованность и решать противоречия в проектах.
+  relatedConcepts:
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/funkcionalnaya-dekompoziciya
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/struktirnaya-dekompoziciya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/stoimostnoe-razbienie
+  transformationPatterns: []
+  usageContextRu:
+  - Системное мышление в инженерных проектах
+  - Описание систем в терминах частей, полученных разными видами разбиений
+  - Функциональный анализ и модульный синтез

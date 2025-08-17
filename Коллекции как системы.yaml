@@ -1,0 +1,94 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: Групповые системы / Наборы как системы / Collections как системы
+  conceptId: https://example.org/concept/kollektsii-kak-sistemy
+  conceptLabel: Коллекции как системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системный подход
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Классифицировать коллекции как системы на основе наличия взаимодействия и эмерджентности
+  - Анализировать примеры групповых систем в проектах
+  - Применять системное мышление к наборам для выявления свойств
+  marzanoLevel: Analysis
+  masteryCriteria: Умение самостоятельно определять, является ли коллекция системой
+    в конкретной ситуации, с обоснованием на основе взаимодействия и свойств.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, когда коллекция объектов становится системой, с примерами
+    из производства.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Отсутствие взаимодействия и макроэффектов делает коллекцию 'просто кучей', а не
+    системой
+  - Зависит от конкретной ситуации и использования в проекте
+  definition_ru: Класс, представляющий собой наборы или коллекции объектов, которые
+    иногда могут быть рассмотрены как системы при наличии взаимодействия между элементами,
+    эмерджентных свойств или совместного воздействия на окружение, но в большинстве
+    случаев не являются системами из-за отсутствия таких характеристик.
+  examplesRu:
+    negative: Периодическая система Менделеева как упорядоченный набор типов объектов
+      не является системой, поскольку она не физична и не занимает места в пространстве-времени.
+    positive: Партия товара с общей упаковкой, где элементы взаимодействуют через
+      среду, может быть рассмотрена как система с эмерджентными свойствами.
+  formalDefinition: ''
+  informalDefinition: Коллекции или наборы объектов могут считаться системами, если
+    они демонстрируют взаимодействие, эмерджентные свойства или совместное поведение,
+    но чаще всего они не являются системами, а представляют собой просто кучи однородных
+    элементов.
+  keyProperties:
+  - datatype: boolean
+    name: Взаимодействие через среду
+    unit: ''
+  - datatype: string
+    name: Эмерджентные свойства
+    unit: ''
+  - datatype: string
+    name: Совместное поведение
+    unit: ''
+  metaphorRu: 'Коллекция как стая птиц: если птицы взаимодействуют и образуют формацию,
+    это система; если просто разбросаны, то нет.'
+  notThisRu: Не путать с систематиками или таксономиями, которые являются описаниями
+    и не занимают места в физическом пространстве-времени, а также с неисчисляемыми
+    материалами без формы или упаковки.
+  oppositeRu: https://example.org/concept/prosto-kucha
+  purposeRu: Рассмотрение коллекций как систем помогает в классификации объектов для
+    применения системного мышления, позволяя учитывать эмерджентность, взаимодействие
+    и свойства группы в проектах, таких как производство или обслуживание.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/sistema
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/emerdzhentnost
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/partiya-tovara
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  transformationPatterns: []
+  usageContextRu:
+  - Классификация партий, лотов или серий в производстве
+  - Анализ сообществ или зон покрытия сервисов
+  - Оценка систем с избыточностью для надежности

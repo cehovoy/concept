@@ -1,0 +1,95 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: function
+  conceptId: https://example.org/concept/funktsiya
+  conceptLabel: Функция
+  conceptLevel: Meta
+  conceptType: Role
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить различные значения термина 'функция' в контексте систем и ролей
+  - Отличить функцию от конструктивного объекта
+  - Применить понятие функции в описании системного поведения
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность формализовать функцию, найти варианты её реализации
+    и объяснить её роль в системе.
+  personalizationHint: для системных инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как функция как роль отличается от конструктивного объекта
+    в системной инженерии.
+  recommendedResources: []
+  soloLevel: Multistructural
+Semantics:
+  constraints:
+  - Функция исполняется, но идеал - когда нет ни одной конструкции
+  - Проверить необходимость функции и формализовать её для избежания ошибок
+  definition_ru: Роль, представляющая собой подтип активности (поведения), процесса
+    или события; некий объект, находящийся в определённой роли или сделанный для определённой
+    роли; сама роль объекта (обычно роль конструктивного/материального объекта, вещи),
+    участвующая в активности (поведении); указание на корреляцию/зависимость, обычно
+    как на физическую связь между какими-то аспектами; математическое отношение между
+    числовыми объектами, определяющее их отображение друг на друга.
+  examplesRu:
+    negative: Смешение функции с конструктивным объектом, например, приписывание поведения
+      напрямую камню без учета роли.
+    positive: Функция молотка - забивание гвоздей, где молоток играет роль забивала.
+  formalDefinition: ''
+  informalDefinition: Функция - это роль объекта, участвующая в активности, или поведение
+    ролевого объекта, часто связанное с назначением или зависимостью между аспектами.
+  keyProperties:
+  - datatype: ''
+    name: Подтип активности
+    unit: ''
+  - datatype: ''
+    name: Роль объекта в активности
+    unit: ''
+  - datatype: ''
+    name: Корреляция/зависимость
+    unit: ''
+  - datatype: ''
+    name: Математическое отображение
+    unit: ''
+  metaphorRu: Роль - Гамлет, играющий эту роль объект - Высоцкий.
+  notThisRu: Функция отличается от конструктивного/материального объекта, играющего
+    роль; не путать с трудом или работой, хотя иногда термины пересекаются в употреблении.
+  oppositeRu: ''
+  purposeRu: Функция указывает на назначение как ожидаемый результат поведения в момент
+    использования, определяет поведение функциональной/ролевой части системы в ходе
+    работы её надсистемы, помогает в функциональной декомпозиции и модульном синтезе.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/aktivnost
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistema
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/rol
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/konstruktivnyy-obekt
+  transformationPatterns: []
+  usageContextRu:
+  - В системной инженерии для описания поведения ролевых объектов
+  - В математике как отношение между числовыми объектами
+  - В проектировании для определения параметров конструктивных объектов
+  - В ТРИЗ для повышения идеальности систем путем выполнения функций меньшим числом
+    конструктивов

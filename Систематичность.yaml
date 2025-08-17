@@ -1,0 +1,95 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/sistematichnost
+  conceptLabel: Систематичность
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://incoseuk.org/Normal_Files/WhatIs/Systems_Engineering
+  - https://www.researchgate.net/publication/327073164_Envisioning_Systems_Engineering_as_a_Transdisciplinary_Venture
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  learningObjectives:
+  - Объяснить разницу между систематичностью и системностью
+  - Применить систематичность для выполнения чеклиста в проекте
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность полностью выполнить все предписанные действия без пропусков
+    и задокументировать результаты в примере деятельности.
+  personalizationHint: ''
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как систематичность помогает в балансе с системностью для
+    успешного изменения мира.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Требует выполнения всех пунктов чеклиста без пропусков, независимо от содержательной
+    нужности
+  - Должна балансировать с системностью для получения результатов
+  definition_ru: Свойство, представляющее собой честное формальное последовательное
+    обращение внимания на все объекты, которые должны быть затронуты, без пропусков,
+    включая как содержательно нужные, так и ненужные действия, с упорством в деталях
+    и документацией результатов. Систематичность обеспечивает выполнение всех пунктов
+    чеклиста, дисциплину мышления и действия, и требуется для получения результатов
+    в проектах любого сорта, живя в балансе с системностью.
+  examplesRu:
+    negative: Пропуск важных действий в мышлении или физическом мире при практике
+      системного фитнеса, несмотря на знание понятий.
+    positive: Заполнение каждой клеточки таблицы 10x10 без пропусков, аккуратно и
+      в заданном порядке, с документацией результатов.
+  formalDefinition: ''
+  informalDefinition: Систематичность - это последовательное и полное выполнение всех
+    предписанных действий и обращений внимания без пропусков, независимо от их содержательной
+    ценности. Она подразумевает упорное вгрызание в детали и документацию результатов.
+  keyProperties:
+  - datatype: ''
+    name: Последовательность без пропусков
+    unit: ''
+  - datatype: ''
+    name: Упорство в деталях
+    unit: ''
+  - datatype: ''
+    name: Документация результатов
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с системностью, которая касается содержания мышления и использования
+    понятий системного подхода, в то время как систематичность - это формальное выполнение
+    без учета содержания; также не является абстрактностью мышления или осознанностью.
+  oppositeRu: ''
+  purposeRu: Систематичность нужна для обеспечения уверенности в получении результата
+    путем честного выполнения всех трудных мыслительных ходов, рекомендуемых рассуждений
+    и действий в физическом мире без пропусков, что относится не только к системному
+    мышлению, но и к любым деятельностям.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnost
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnyj-podhod
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/distsiplina
+  transformationPatterns: []
+  usageContextRu:
+  - В системной инженерии и менеджменте для выполнения всех пунктов чеклиста и документации
+  - В любых деятельностях, требующих дисциплины мышления и действия, таких как системный
+    фитнес на основе соматомеханики
+  - В проектах для баланса с системностью, обеспечивая полное покрытие предписанных
+    объектов

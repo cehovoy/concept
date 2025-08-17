@@ -1,0 +1,117 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: ''
+Identification:
+  altLabels: systems engineering / system engineering
+  conceptId: https://example.org/concept/sistemnaia-inzheneriia
+  conceptLabel: Системная инженерия
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Интеллект-стек
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://framework.scaledagile.com/
+  - https://less.works/
+  - https://www.pmi.org/disciplined-agile/
+  - https://www.scrumatscale.com/
+  - https://www.scrum.org/resources/nexus-guide
+  - https://www.atlassian.com/agile/agile-at-scale/spotify
+Pedagogy:
+  bloomLevel: Apply
+  difficulty: '4'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить, как системная инженерия применяется для создания систем в графах создателей
+  - Анализировать конфликты между системными уровнями и предлагать оптимизации
+  - Применять принципы системной инженерии в коллективных проектах для минимизации
+    ошибок
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Обучающийся может описать лучшие практики системной инженерии,
+    отличить ее от методологии и применить в сценарии сложного проекта, демонстрируя
+    понимание системного подхода.
+  personalizationHint: для инженеров в сложных проектах
+  prerequisiteConcepts:
+  - https://example.org/concept/sistemnoe-myshlenie
+  - https://example.org/concept/metodologiia
+  promptHintRu: Опиши, как системная инженерия помогает в создании успешных систем
+    в крупных проектах, используя системный подход.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Необходима в сложных и крупных проектах; почти не дает эффекта в простых проектах
+    на одного человека
+  - Требует осознанного использования системного мышления и согласования предпочтений
+    проектных ролей
+  definition_ru: Процесс, в ходе которого системы-создатели нормативно создают другие
+    системы как целые объекты, состоящие из частей-подсистем, отделенные от среды,
+    с использованием системного подхода для координации труда агентов в проектах,
+    адаптируя принципы для различных предметных областей и решая конфликты между системными
+    уровнями.
+  examplesRu:
+    negative: Называть любой объект 'системой' без применения системного подхода и
+      мышления, как в обычных инженерных специальностях, где слово 'система' добавляется
+      для научного лоска.
+    positive: В проекте создания подводной лодки системная инженерия координирует
+      архитектурные решения и организацию проекта, обеспечивая успешное создание системы
+      через лучшие практики.
+  formalDefinition: ''
+  informalDefinition: Системная инженерия - это подход к созданию систем, где одни
+    системы-создатели нормативно определяют, как создавать другие системы, используя
+    системный подход для рассмотрения мира как набора взаимодействующих систем. Она
+    отличается от методологии тем, что задает нормы 'как надо' создавать успешные
+    системы.
+  keyProperties:
+  - datatype: string
+    name: Нормативность
+    unit: ''
+  - datatype: string
+    name: Системный подход
+    unit: ''
+  - datatype: string
+    name: Координация труда агентов
+    unit: ''
+  - datatype: string
+    name: Адаптация к предметным областям
+    unit: ''
+  metaphorRu: Системная инженерия подобна шведскому столу, где нужно не только все
+    сделать, но и много раз переделать, пополнить и подать по-разному, используя лучшие
+    концептуальные решения для неизбежных проблем.
+  notThisRu: Не следует путать с 'инженерией систем' (engineering of systems), где
+    слово 'система' используется без осознанного применения системного подхода и мышления,
+    а также с методологией, которая описывает возможные способы, а не нормы 'как надо'.
+  oppositeRu: ''
+  purposeRu: Системная инженерия предназначена для обеспечения создания успешных систем
+    в сложных проектах, минимизируя ошибки через системное мышление и лучшие практики,
+    что особенно необходимо в крупных коллективных проектах для координации и документирования
+    решений.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnyi-podkhod
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/programmnaia-inzheneriia
+  - relation: IS_A
+    targetIri: https://example.org/concept/inzheneriia
+  transformationPatterns:
+  - Системы-создатели → Целевые системы
+  - Конфликты системных уровней → Оптимизации и лучшие практики
+  usageContextRu:
+  - Создание систем разной природы, от бактерий до стран
+  - Сложные и крупные инженерные проекты, требующие координации множества агентов
+  - Прикладные инженерные дисциплины, такие как программная инженерия, робототехника,
+    инженерия личности, системный менеджмент, социальная инженерия

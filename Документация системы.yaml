@@ -1,0 +1,91 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: system description / системная документация
+  conceptId: https://example.org/concept/dokumentatsiya-sistemy
+  conceptLabel: Документация системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  learningObjectives:
+  - Объяснить отличие документации от описания системы
+  - Привести примеры документации в проектах
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение различать документацию от воплощения и описания системы,
+    а также объяснять её роль в проектах.
+  personalizationHint: для инженеров
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как документация системы отличается от описания системы и её
+    воплощения.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Документация всегда в экзокортексе, а не в неокортексе
+  - Отношения читаются в двух направлениях, как часть-целое
+  definition_ru: Класс, представляющий материальные артефакты, реализующие альфу системного
+    описания, включая документы, базы данных и другие носители, на которых кодируются
+    описания систем, отличающиеся от самих абстрактных описаний и воплощений систем.
+  examplesRu:
+    negative: Концепция использования фазовыпрямителя без специального документирования
+      - это не документация, а только описание.
+    positive: Отчёт «Результаты испытаний сепулькария от 13 мартобря 2026г.» на 14
+      страницах - это документация, так как это документ на носителе информации.
+  formalDefinition: ''
+  informalDefinition: Документация системы - это документы, артефакты или рабочие
+    продукты, реализующие описание системы, такие как отчёты, базы данных или другие
+    носители информации, которые материально фиксируют абстрактные описания для использования
+    в проектах.
+  keyProperties:
+  - datatype: ''
+    name: Материальность
+    unit: ''
+  - datatype: ''
+    name: Кодирование информации
+    unit: ''
+  - datatype: ''
+    name: Отношение к описанию
+    unit: ''
+  metaphorRu: Документация - это экзокортекс, внешняя память, которой доверяют больше,
+    чем биологическому мозгу.
+  notThisRu: Не путать с самим описанием системы (system definition), которое является
+    абстрактным, или с воплощением системы; документация - это не фиксация в смысле
+    заморозки, а документирование изменяющихся описаний.
+  oppositeRu: ''
+  purposeRu: Документация системы служит внешней памятью или экзокортексом для хранения
+    и передачи описаний систем, необходимых для создания воплощений систем, особенно
+    в коллективных проектах, где биологическому мозгу не доверяют, а полагаются на
+    стабильные носители.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/opisanie-sistemy
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-opisanie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/baza-dannykh-s-modeleu
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/alfa-sistemnogo-opisaniya
+  transformationPatterns: []
+  usageContextRu:
+  - Разработка систем в проектах
+  - Моделирование ситуаций в проектах
+  - Коллективное обсуждение и отслеживание хода проектов

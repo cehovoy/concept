@@ -1,0 +1,124 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/ontologiya-sistemnogo-podkhoda-tretego-pokoleniya
+  conceptLabel: Онтология системного подхода третьего поколения
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: Системная инженерия
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - ISO/IEC/IEEE 42010
+  - ISO/IEC/IEEE 15288
+  - ISO 15926-2
+  - Vanchurin, Wolf, Koonin, Katsnelson
+  - Yuri I. Wolf, Mikhail I. Katsnelson, and Eugene V. Koonin, Physical foundations
+    of biological complexity, 2018
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '4'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  - Application
+  learningObjectives:
+  - Понять различия между поколениями системного подхода
+  - Объяснить роль эволюции и термодинамики в онтологии третьего поколения
+  - Применить онтологию для анализа системной инженерии
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность описать онтологию третьего поколения, выделить ее ключевые
+    свойства и привести примеры отличий от предыдущих поколений.
+  personalizationHint: для исследователей системного мышления
+  prerequisiteConcepts:
+  - https://example.org/concept/pervoe-pokolenie-sistemnogo-podkhoda
+  - https://example.org/concept/vtoroe-pokolenie-sistemnogo-podkhoda
+  promptHintRu: Объясни, как онтология системного подхода третьего поколения учитывает
+    эволюцию знаний в сравнении с предыдущими поколениями.
+  recommendedResources:
+  - https://www.pnas.org/doi/10.1073/pnas.1807890115
+  - https://en.wikipedia.org/wiki/Geometrical_frustration
+  - ISO/IEC/IEEE 42010
+  - ISO/IEC/IEEE 15288
+  - ISO 15926-2
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Должна учитывать достижения предыдущих поколений системного подхода
+  - Опирается на 4D экстенсионализм для формализации
+  - Связана с распределенными представлениями и локально-распределенной семантикой
+  definition_ru: Класс, представляющий собой онтологию третьего поколения системного
+    подхода, которая включает физическое объяснение эволюции, приводящей к большим
+    эволюционным переходам, учитывает термодинамически обусловленную эволюцию, связывает
+    эволюцию с обучением и термодинамикой, и фокусируется на эволюции знаний о системах,
+    аналогично эволюции генома в биологии.
+  examplesRu:
+    negative: Применение онтологии третьего поколения без учета эволюции, ограничиваясь
+      только системой в окружении во время эксплуатации, как в первом поколении.
+    positive: Использование онтологии для гармонизации подходов в системной инженерии,
+      учитывая эволюцию знаний и термодинамику, как в работах Vanchurin, Wolf, Koonin,
+      Katsnelson.
+  formalDefinition: ''
+  informalDefinition: Онтология системного подхода третьего поколения представляет
+    собой набор описаний понятий, учитывающих термодинамически обусловленную эволюцию
+    систем, включая эволюцию знаний и бесконечное развитие сложности. Она объединяет
+    достижения предыдущих поколений, добавляя учет времени эволюции и связывая эволюцию
+    с обучением и термодинамикой.
+  keyProperties:
+  - datatype: ''
+    name: Учет времени эволюции
+    unit: ''
+  - datatype: ''
+    name: Термодинамическая природа обучения и эволюции
+    unit: ''
+  - datatype: ''
+    name: Эволюция знаний о системах
+    unit: ''
+  - datatype: ''
+    name: Безмасштабные описания физических систем
+    unit: ''
+  - datatype: ''
+    name: Конструктивизм в операциях с физическими и абстрактными объектами
+    unit: ''
+  metaphorRu: Онтология как эволюционирующий геном системного подхода, где знания
+    развиваются аналогично биологической эволюции.
+  notThisRu: Не следует путать с онтологиями первого или второго поколения системного
+    подхода, которые не учитывают термодинамически обусловленную эволюцию и бесконечное
+    развитие сложности систем.
+  oppositeRu: ''
+  purposeRu: Онтология предназначена для гармонизации подходов к созданию системной
+    онтологии, обеспечения разделяемой концептуализации понятия системы в инженерных
+    сообществах, поддержки критики и порождения новых знаний в системном творчестве,
+    а также для учета эволюции систем и знаний в системной инженерии.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/ontologiya-sistemnogo-podkhoda
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnyj-podkhod-tretego-pokoleniya
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/evolyuciya-sistem
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/pervoe-pokolenie-sistemnogo-podkhoda
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/termodinamicheskaya-evolyuciya
+  transformationPatterns:
+  - Эволюция систем → Увеличение сложности
+  - Обучение → Термодинамическая эволюция
+  - Знания о системах → Эволюция генома
+  usageContextRu:
+  - Системная инженерия как метод изменения мира к лучшему
+  - Обсуждение практик менеджмента с учетом эволюции систем
+  - Формализация знаний о распределенных представлениях и эволюции
+  - Гармонизация онтологических посылок в инициативах третьего поколения системного
+    подхода

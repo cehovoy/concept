@@ -1,0 +1,106 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/tvorchestvo-sistemnoe
+  conceptLabel: Творчество системное
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системная инженерия
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://sketchplanations.com/affordance
+  - https://ru.wikipedia.org/wiki/СМД-методология
+Pedagogy:
+  bloomLevel: Create
+  difficulty: '4'
+  dokLevel: '4'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Освоить методы снятия противоречий в системном подходе
+  - Применить системное творчество для создания новых систем в проектах
+  - Анализировать и обходить ограничения с помощью продуманных мутаций
+  marzanoLevel: Knowledge_Utilization
+  masteryCriteria: Умение описать примеры системного творчества в проектах, моделировать
+    системные уровни и создавать графы создателей с учетом творческих решений.
+  personalizationHint: для инженеров и менеджеров
+  prerequisiteConcepts:
+  - https://example.org/concept/sistemnoe-myshlenie
+  - https://example.org/concept/affordansy
+  promptHintRu: Опиши, как применить системное творчество для решения противоречия
+    в твоем рабочем проекте.
+  recommendedResources:
+  - https://sketchplanations.com/affordance
+  - https://ru.wikipedia.org/wiki/СМД-методология
+  soloLevel: Extended_Abstract
+Semantics:
+  constraints:
+  - Должны быть продуманными мутациями с наибольшей вероятностью успеха
+  - Учет системного окружения и функционального разбиения
+  definition_ru: Процесс, заключающийся в творческом мышлении в системном подходе,
+    где акцент на продуманных мутациях для повышения успешности системы, снятии противоречий
+    логической критикой и улучшении объяснений для согласования предсказаний с экспериментальными
+    данными. Это не безалаберное творчество, а решение проблем, преодоление остановок
+    в рассуждениях и создание first of a kind систем, обходя ограничения и учитывая
+    аффордансы, чтобы объект подходил для нужной функции и не подходил для ненужной.
+  examplesRu:
+    negative: Случайные придумки без учета противоречий и ограничений, приводящие
+      к неуспешным системам, не являются системным творчеством.
+    positive: В инженерии системное творчество применяется для создания объекта, который
+      идеально подходит для нужной функции и не позволяет неправильное использование,
+      как в концепции аффордансов.
+  formalDefinition: ''
+  informalDefinition: Системное творчество - это творческое мышление в рамках системного
+    подхода, ориентированное на продуманные изменения и решения противоречий, а не
+    на случайные идеи. Оно включает создание систем, которые подходят для нужных функций
+    и избегают ненужных, с учетом аффордансов и эволюционных мутаций.
+  keyProperties:
+  - datatype: string
+    name: Продуманные мутации
+    unit: ''
+  - datatype: string
+    name: Снятие противоречий
+    unit: ''
+  - datatype: string
+    name: Учет аффордансов
+    unit: ''
+  metaphorRu: Системное творчество подобно эволюции с умными мутациями, где изменения
+    продуманы для повышения выживаемости системы.
+  notThisRu: Не следует путать с безалаберным творчеством или случайными придумками;
+    это не переборное 'постмодернистское творчество' как выбор из известных вариантов,
+    а решение противоречий и проблем.
+  oppositeRu: Безалаберное творчество
+  purposeRu: Системное творчество предназначено для снятия противоречий, обнаруживаемых
+    логической критикой, улучшения объяснений и достижения согласования предсказаний
+    с данными эксперимента. Оно помогает в создании устойчивых систем, обходе ограничений
+    и избежании ошибок в деятельности, способствуя эволюции идей через smart mutations.
+  relatedConcepts:
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/affordansy
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/triz
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/smd-metodologiya
+  transformationPatterns:
+  - Противоречие → Снятие через творчество
+  - Ограничение → Обход с помощью first of a kind системы
+  usageContextRu:
+  - В инженерии для обсуждения изобретений и защиты от неправильного использования
+  - В системном мышлении для создания first of a kind систем и обхода ограничений
+  - В школах мышления как СМД-методология, ТРИЗ и теория ограничений для преодоления
+    противоречий

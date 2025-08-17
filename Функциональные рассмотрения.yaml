@@ -1,0 +1,86 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/funktsionalnye-rassmotreniya
+  conceptLabel: Функциональные рассмотрения
+  conceptLevel: Meta
+  conceptType: Process
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: Системное мышление
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives: []
+  marzanoLevel: Comprehension
+  masteryCriteria: ''
+  personalizationHint: ''
+  prerequisiteConcepts: []
+  promptHintRu: ''
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: Процесс рассмотрения системы с точки зрения ее функций, ролевого
+    поведения и взаимодействий во время эксплуатации, где акцент делается на то, что
+    на что воздействует, каковы участники взаимодействий и что окружает целевую систему,
+    с учетом ролевых объектов и методов работы.
+  examplesRu:
+    negative: Путаница функционального рассмотрения со временем создания, когда слесарь
+      рассматривается как система создания, но без учета времени его эксплуатации.
+    positive: В рассмотрении автомобиля функциональные аспекты включают обсуждение
+      подогрева сидений как идеи снизу, определяемой командой, проектирующей салон.
+  formalDefinition: ''
+  informalDefinition: Функциональные рассмотрения - это способ анализа системы, фокусирующийся
+    на ее поведении, функциях и взаимодействиях во время эксплуатации, подчеркивая,
+    что на что воздействует и каковы участники взаимодействий. Они отличаются от конструктивных
+    рассмотрений и подчеркивают важность понимания 'как работает' система.
+  keyProperties:
+  - datatype: ''
+    name: Связь с эксплуатацией
+    unit: ''
+  - datatype: ''
+    name: Первичность в системном мышлении
+    unit: ''
+  - datatype: ''
+    name: Фокус на поведении и взаимодействиях
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не следует путать с конструктивными рассмотрениями, которые относятся
+    ко времени создания и развития системы, фокусируясь на поиске аффордансов и обработке
+    состояний из сырья в готовую систему.
+  oppositeRu: Конструктивные рассмотрения
+  purposeRu: Функциональные рассмотрения предназначены для понимания функциональности
+    системы, то есть какой пользы она приносит надсистеме и какой сервис делает для
+    систем в окружении, что является главной областью интересов в современном системном
+    мышлении и важнейшей характеристикой системы.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/konstruktivnye-rassmotreniya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/funktsiya-molotka
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/affordance
+  transformationPatterns: []
+  usageContextRu:
+  - В системном мышлении для объяснения эволюции и жизни через понятие аффорданса
+  - В проектировании систем, где функциональное наполнение определяется командами
+  - В операционном менеджменте как потоки работ и комплектующих
+  - В моделировании систем для функционального анализа и синтеза

@@ -1,0 +1,102 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/chetyre-osnovnykh-vida-opisaniya-sistemy
+  conceptLabel: Четыре основных вида описания системы
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '3'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить четыре основных вида описания системы и их связь с разбиением на части
+  - Применить эти виды для описания простой системы в проекте
+  - Согласовать разные виды описаний для избежания противоречий
+  marzanoLevel: Comprehension
+  masteryCriteria: Умение перечислить и описать четыре вида, привести пример их использования
+    и объяснить важность согласованности.
+  personalizationHint: для инженеров и системных мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Опиши, как использовать четыре основных вида описания системы для
+    анализа инженерного проекта.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Должны быть согласованными и не противоречить друг другу
+  - Обязательны в большинстве вариантов системного подхода
+  - Гибридны в реальной практике
+  definition_ru: 'Класс, представляющий четыре обязательных вида описаний системы
+    в системном подходе, которые отражают четыре основных способа деления системы
+    на части: функциональные (на основе функциональной декомпозиции), конструктивные
+    (состав модулей), размещения (физическое) и стоимостные, с тенденцией к добавлению
+    пятого вида, связанного с работами.'
+  examplesRu:
+    negative: Ограничение описания системы только функциональной схемой без учета
+      конструктивного или стоимостного, что приводит к неполноте и противоречиям в
+      проекте.
+    positive: В проекте описывается система с использованием функционального описания
+      для ролей, конструктивного для модулей, размещения для физического расположения
+      и стоимостного для оценки, обеспечивая полную согласованность.
+  formalDefinition: ''
+  informalDefinition: Четыре основных вида описания системы представляют собой обязательные
+    способы представления системы в системном мышлении, основанные на разных методах
+    разбиения системы на части, включая функциональное, конструктивное, размещения
+    и стоимостное.
+  keyProperties:
+  - datatype: ''
+    name: Функциональное описание
+    unit: ''
+  - datatype: ''
+    name: Конструктивное описание
+    unit: ''
+  - datatype: ''
+    name: Описание размещения
+    unit: ''
+  - datatype: ''
+    name: Стоимостное описание
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не следует путать с единственным видом описания, таким как только функциональное
+    или конструктивное, поскольку они гибридны и должны быть согласованными; также
+    не являются исключительно описаниями разбиений, а включают аспекты систем в их
+    разбиении.
+  oppositeRu: ''
+  purposeRu: Эти виды описаний предназначены для обеспечения согласованности и полноты
+    представления системы, помогая избежать противоречий и охватывая разные аспекты,
+    такие как функции, конструкция, размещение и стоимость, в инженерных и проектных
+    работах.
+  relatedConcepts:
+  - relation: PART_OF
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/funktsionalnaya-dekompozitsiya
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/opisanie-sistemy
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/standart-iec-81346
+  transformationPatterns: []
+  usageContextRu:
+  - В системном мышлении для описания целевых систем
+  - В инженерных проектах для согласования описаний между ролями
+  - В моделях 'прозрачного ящика' для взаимоувязки функционального и конструктивного
+    описаний

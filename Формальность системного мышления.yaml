@@ -1,0 +1,93 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/formalnost-sistemnogo-myshleniya
+  conceptLabel: Формальность системного мышления
+  conceptLevel: Meta
+  conceptType: Quality
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: L2
+    nameRu: Системное мышление
+  domain: Systems Thinking
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - http://ailev.livejournal.com/1311261.html
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Различать формальные и неформальные аспекты системного мышления.
+  - Применять типизацию объектов в логических рассуждениях.
+  - Анализировать спектр формальности в трансдисциплинарном контексте.
+  marzanoLevel: Analysis
+  masteryCriteria: Умение выявлять логические противоречия и применять формальную
+    типизацию в системном мышлении без ошибок.
+  personalizationHint: для аналитических мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Объясни, как формальность в системном мышлении помогает в снятии противоречий
+    при творческом мышлении.
+  recommendedResources:
+  - http://ailev.livejournal.com/1311261.html
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Формальность требует строгой типизации, без путаницы понятий вроде 'метод работы'
+    и 'работа' или разных значений 'система'.
+  definition_ru: Свойство, характеризующее степень использования формальных методов
+    в системном мышлении, включая строгие логические выводы через значения 'истина'
+    и 'ложь', типизацию объектов и отношений, а также сочетание с неформальными интуитивными
+    знаниями в трансдисциплинарном контексте.
+  examplesRu:
+    negative: Объявление любого процесса системой без учета типизации и логики, что
+      приводит к путанице и невозможности договариваться с другими.
+    positive: В системном мышлении формальность проявляется в использовании типизации
+      объектов для логического вывода, например, при различении системы из системного
+      подхода и системы Станиславского.
+  formalDefinition: ''
+  informalDefinition: Формальность системного мышления подразумевает использование
+    строгих, формальных рассуждений с типизацией объектов и отношений, наряду с неформальными
+    интуитивными подходами, для обеспечения логического вывода и избежания ошибок.
+  keyProperties:
+  - datatype: ''
+    name: типизация объектов и отношений
+    unit: ''
+  - datatype: ''
+    name: логический вывод через 'истина' и 'ложь'
+    unit: ''
+  - datatype: ''
+    name: спектр формальности
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не путать с исключительно неформальными рассуждениями на основе метафор
+    и аналогий, или с бытовым использованием термина 'система' без типизации.
+  oppositeRu: ''
+  purposeRu: Формальность обеспечивает возможность строгого логического вывода, снижает
+    вероятность ошибок в мышлении и позволяет работать с объектами и отношениями с
+    использованием логики, а не только метафор.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/sistemnoe-myshlenie
+  - relation: PART_OF
+    targetIri: https://example.org/concept/intellekt-stek
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/teoriya-prototipov
+  - relation: ALIGNS_WITH
+    targetIri: https://example.org/concept/matematicheskaya-logika
+  transformationPatterns: []
+  usageContextRu:
+  - в цикле познания и творчества на шаге формализации
+  - в трансдисциплинарном мышлении с неформальным и интуитивным знанием
+  - в системном творчестве для снятия формальных противоречий

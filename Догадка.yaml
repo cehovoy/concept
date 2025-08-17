@@ -1,0 +1,95 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: draft
+  steward: ''
+  version: 1.0.0
+Identification:
+  altLabels: guess/гипотеза
+  conceptId: https://example.org/concept/dogadka
+  conceptLabel: Догадка
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: '2023-10-01T00:00:00Z'
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef:
+  - https://plato.stanford.edu/entries/popper/
+  - https://plato.stanford.edu/entries/rationalism-empiricism/
+Pedagogy:
+  bloomLevel: Understand
+  difficulty: '2'
+  dokLevel: '2'
+  finkProfile:
+  - Foundational Knowledge
+  - Application
+  - Integration
+  learningObjectives:
+  - Объяснить роль догадки в процессе создания знаний
+  - Выдвинуть и критиковать простую догадку на основе данных
+  marzanoLevel: Comprehension
+  masteryCriteria: Способность генерировать непротиворечивые догадки и оценивать их
+    качество через логическую критику.
+  personalizationHint: для творческих мыслителей
+  prerequisiteConcepts: []
+  promptHintRu: Опиши процесс выдвижения и проверки догадки в контексте научного мышления.
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints:
+  - Должна быть трудноварьируемой и компактной для объяснений
+  - Должна выдерживать логическую критику и экспериментальную проверку
+  definition_ru: Класс, представляющий собой начальную идею или гипотезу в форме объяснения,
+    которая не выводится из наблюдений, но используется для создания знаний через
+    процесс критики, модификации или опровержения, с акцентом на умные, не случайные
+    предложения, способные выдержать логическую проверку и эксперимент.
+  examplesRu:
+    negative: Случайная идея без объяснения причин и следствий, не подлежащая критике,
+      как простое предположение без оснований.
+    positive: В физике догадка о сохранении энергии объясняет множество ситуаций и
+      выдерживает проверку измерениями.
+  formalDefinition: ''
+  informalDefinition: Догадка - это начальная идея или гипотеза, которая возникает
+    как объяснение или предложение, не выводимое напрямую из наблюдений, но подлежащее
+    проверке и критике. Она может быть ошибочной и требует оценки на непротиворечивость
+    и качество.
+  keyProperties:
+  - datatype: ''
+    name: Умность
+    unit: ''
+  - datatype: ''
+    name: Опровергаемость
+    unit: ''
+  - datatype: ''
+    name: Контрфактическая формулировка
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не следует путать с чисто случайными идеями или выводами, напрямую получаемыми
+    из эмпирических данных; догадка не доказывается логикой, но может быть опровергнута
+    ею.
+  oppositeRu: ''
+  purposeRu: Догадка служит для выдвижения новых идей и объяснений, которые могут
+    привести к созданию знаний, решению проблем или изобретениям, позволяя преодолевать
+    ограничения чисто логического вывода из данных и стимулируя творческое мышление.
+  relatedConcepts:
+  - relation: IS_A
+    targetIri: https://example.org/concept/gipoteza
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/kritika
+  - relation: PART_OF
+    targetIri: https://example.org/concept/protsess-sozdaniya-znaniy
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/ratsionalizm
+  transformationPatterns:
+  - Догадка → Модифицированная догадка (smart mutation)
+  - Догадка → Опровергнутая идея (критика)
+  usageContextRu:
+  - В научном мышлении для формулировки гипотез и их проверки
+  - В изобретательских задачах для генерации идей о структуре мира или систем
+  - В рациональном подходе к познанию, где наблюдения используются для критики, а
+    не для генерации идей

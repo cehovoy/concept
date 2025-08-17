@@ -1,0 +1,87 @@
+Governance:
+  changeHistory: []
+  lastReviewDate: ''
+  status: ''
+  steward: ''
+  version: ''
+Identification:
+  altLabels: ''
+  conceptId: https://example.org/concept/tsepochki-klassifikatsii
+  conceptLabel: Цепочки классификации
+  conceptLevel: Meta
+  conceptType: Class
+  creationDate: ''
+  creator: ''
+  discipline:
+    level: ''
+    nameRu: ''
+  domain: ''
+  extensibility: {}
+  metaMetaType: ''
+  theoRef: []
+Pedagogy:
+  bloomLevel: Analyze
+  difficulty: '3'
+  dokLevel: '3'
+  finkProfile:
+  - Foundational Knowledge
+  - Integration
+  learningObjectives: []
+  marzanoLevel: Analysis
+  masteryCriteria: ''
+  personalizationHint: ''
+  prerequisiteConcepts: []
+  promptHintRu: ''
+  recommendedResources: []
+  soloLevel: Relational
+Semantics:
+  constraints: []
+  definition_ru: 'Класс, представляющий иерархии классификации, которые строятся с
+    использованием двух видов отношений: классификации (включение элементов множества
+    в множество) и специализации (род-вид, подмножества во множестве), применяемые
+    в моделировании для различения уровней, таких как операционная модель, мета-модель
+    и мета-мета-модель.'
+  examplesRu:
+    negative: Представление цепочки классификации как отношений часть-целое, например,
+      рука как часть конечности вместо классификации руки как конечности, приводит
+      к искажению иерархии.
+    positive: В моделировании проекта цепочка классификации может включать реальный
+      объект (город), его тип (городская энергосистема) и мета-тип (системное разбиение),
+      демонстрируя уровни соответствия.
+  formalDefinition: ''
+  informalDefinition: Цепочки классификации представляют собой иерархии, строящиеся
+    с использованием отношений классификации и специализации, где речь идет о классах
+    классов, классифицирующих похожие системы или объекты.
+  keyProperties:
+  - datatype: ''
+    name: Отношение классификации
+    unit: ''
+  - datatype: ''
+    name: Отношение специализации
+    unit: ''
+  - datatype: ''
+    name: Уровни мета-моделирования
+    unit: ''
+  metaphorRu: ''
+  notThisRu: Не следует путать с системными разбиениями, которые используют отношения
+    часть-целое для физических объектов, а не с цепочками класс-подкласс-член класса
+    или специализацией.
+  oppositeRu: ''
+  purposeRu: Цепочки классификации используются для моделирования и различения реальных
+    объектов из физического мира, их типов из дисциплин предметной области и типов
+    из фундаментальных методов мышления, обеспечивая понимание соответствий и избежание
+    путаницы с отношениями часть-целое.
+  relatedConcepts:
+  - relation: RELATES_TO
+    targetIri: https://example.org/concept/klassifikator
+  - relation: IS_A
+    targetIri: https://example.org/concept/ierarkhiya
+  - relation: PART_OF
+    targetIri: https://example.org/concept/modelirovanie
+  - relation: HAS_EXAMPLE
+    targetIri: https://example.org/concept/meta-model
+  transformationPatterns: []
+  usageContextRu:
+  - Моделирование в проектах с цепочками по отношению мета-моделирования
+  - Системный подход для поиска и описания систем через классификаторы
+  - Различение отношений классификации, специализации и часть-целое в иерархиях
